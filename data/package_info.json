@@ -1955,6 +1955,2060 @@
     ],
     "installation": "pip install zipp",
     "documentation": "https://zipp.readthedocs.io/"
+  },
+
+  {
+    "name": "msgpack",
+    "description": "msgpack is a Python library that provides efficient binary serialization and deserialization of Python objects using the MessagePack format. It is faster and more compact than JSON, making it ideal for data interchange in performance-sensitive applications.",
+    "compatibility": {
+      "Python 2.7": "Supported up to msgpack 0.5.6",
+      "Python 3.x": "Supported by the latest msgpack versions"
+    },
+    "version_mapping": {
+      "msgpack 0.5.x": "Python 2.7, 3.x",
+      "msgpack 0.6.x - 0.7.x": "Python 3.5-3.8",
+      "msgpack 1.0.x": "Python 3.6-3.10"
+    },
+    "key_features": [
+      "Efficient binary serialization and deserialization",
+      "Faster and more compact than JSON",
+      "Supports complex Python data structures",
+      "Cross-language compatibility with MessagePack format",
+      "Ideal for data interchange in performance-sensitive applications"
+    ],
+    "installation": "pip install msgpack",
+    "documentation": "https://msgpack.readthedocs.io/"
+  },  
+  {
+    "name": "sniffio",
+    "description": "sniffio is a Python library for detecting the currently running asynchronous I/O library. It helps developers write compatible code for different async I/O frameworks like asyncio, Trio, and Curio.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest sniffio versions"
+    },
+    "version_mapping": {
+      "sniffio 1.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Detects the currently running async I/O library",
+      "Supports asyncio, Trio, and Curio",
+      "Helps write compatible async code",
+      "Lightweight and easy to use",
+      "Ideal for libraries and frameworks that need to support multiple async I/O systems"
+    ],
+    "installation": "pip install sniffio",
+    "documentation": "https://sniffio.readthedocs.io/"
+  },
+  {
+    "name": "pexpect",
+    "description": "pexpect is a Python library for controlling and automating interactions with child applications. It allows you to spawn child applications, control them, and respond to expected patterns in their output.",
+    "compatibility": {
+      "Python 2.7": "Supported up to pexpect 4.6",
+      "Python 3.x": "Supported by the latest pexpect versions"
+    },
+    "version_mapping": {
+      "pexpect 4.x": "Python 2.7, 3.x",
+      "pexpect 4.8.x+": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Spawns child applications and controls them",
+      "Automates interactions with command-line tools",
+      "Responds to expected patterns in output",
+      "Supports timeouts and exception handling",
+      "Ideal for testing, automation, and scripting tasks"
+    ],
+    "installation": "pip install pexpect",
+    "documentation": "https://pexpect.readthedocs.io/"
+  },
+  {
+    "name": "ptyprocess",
+    "description": "ptyprocess is a Python library that allows the creation and management of pseudo-terminal processes. It is used to control subprocesses and their interactions with pseudo-terminals, providing a foundation for tools like pexpect.",
+    "compatibility": {
+      "Python 2.7": "Supported up to ptyprocess 0.6.0",
+      "Python 3.x": "Supported by the latest ptyprocess versions"
+    },
+    "version_mapping": {
+      "ptyprocess 0.5.x": "Python 2.7, 3.x",
+      "ptyprocess 0.6.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Creation and management of pseudo-terminal processes",
+      "Supports controlling subprocesses",
+      "Foundation for tools like pexpect",
+      "Handles communication with pseudo-terminals",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install ptyprocess",
+    "documentation": "https://ptyprocess.readthedocs.io/"
+  },
+  {
+    "name": "referencing",
+    "description": "referencing is a Python library that provides utilities for working with JSON references. It allows you to resolve and manipulate JSON references within JSON documents, making it easier to handle complex JSON structures.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest referencing versions"
+    },
+    "version_mapping": {
+      "referencing 1.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Utilities for working with JSON references",
+      "Resolves and manipulates JSON references",
+      "Handles complex JSON structures",
+      "Integrates with JSON Schema",
+      "Lightweight and easy to use"
+    ],
+    "installation": "pip install referencing",
+    "documentation": "https://referencing.readthedocs.io/"
+  },
+  {
+    "name": "scikit-learn",
+    "description": "scikit-learn is a Python library for machine learning that provides simple and efficient tools for data analysis and modeling. It includes a wide range of algorithms for classification, regression, clustering, and dimensionality reduction.",
+    "compatibility": {
+      "Python 2.7": "Supported up to scikit-learn 0.20.x",
+      "Python 3.x": "Supported by the latest scikit-learn versions"
+    },
+    "version_mapping": {
+      "scikit-learn 0.20.x": "Python 2.7, 3.5-3.7",
+      "scikit-learn 0.21.x": "Python 3.5-3.7",
+      "scikit-learn 0.22.x": "Python 3.5-3.8",
+      "scikit-learn 0.23.x": "Python 3.6-3.8",
+      "scikit-learn 0.24.x": "Python 3.6-3.9",
+      "scikit-learn 0.25.x": "Python 3.7-3.9",
+      "scikit-learn 1.0.x": "Python 3.7-3.10",
+      "scikit-learn 1.1.x": "Python 3.7-3.10"
+    },
+    "key_features": [
+      "Simple and efficient tools for data analysis and modeling",
+      "Algorithms for classification, regression, and clustering",
+      "Dimensionality reduction techniques",
+      "Integration with NumPy and SciPy",
+      "Extensive documentation and examples"
+    ],
+    "installation": "pip install scikit-learn",
+    "documentation": "https://scikit-learn.org/stable/documentation.html"
+  },
+  {
+    "name": "rpds-py",
+    "description": "rpds-py is a Python library that provides immutable and persistent data structures. It offers efficient and safe alternatives to Python's built-in mutable collections, which are useful for functional programming and concurrent applications.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest rpds-py versions"
+    },
+    "version_mapping": {
+      "rpds-py 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Immutable and persistent data structures",
+      "Efficient alternatives to built-in mutable collections",
+      "Useful for functional programming",
+      "Safe for concurrent applications",
+      "High performance and low memory overhead"
+    ],
+    "installation": "pip install rpds-py",
+    "documentation": "https://rpds-py.readthedocs.io/"
+  },
+  {
+    "name": "google-cloud-core",
+    "description": "google-cloud-core is a Python library that provides core functionality and common utilities for Google Cloud client libraries. It includes configuration management, authentication, and other foundational components needed to work with Google Cloud services.",
+    "compatibility": {
+      "Python 2.7": "Supported up to google-cloud-core 1.0.x",
+      "Python 3.x": "Supported by the latest google-cloud-core versions"
+    },
+    "version_mapping": {
+      "google-cloud-core 1.0.x": "Python 2.7, 3.x",
+      "google-cloud-core 2.0.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Core functionality for Google Cloud client libraries",
+      "Configuration management",
+      "Authentication and authorization support",
+      "Common utilities for Google Cloud services",
+      "Integration with other Google Cloud libraries"
+    ],
+    "installation": "pip install google-cloud-core",
+    "documentation": "https://googleapis.dev/python/google-cloud-core/latest/"
+  },
+  {
+    "name": "flask",
+    "description": "Flask is a lightweight and flexible web framework for Python. It is designed to make it easy to start small projects and scale them up to complex applications. Flask is known for its simplicity and extensibility, allowing developers to customize their applications as needed.",
+    "compatibility": {
+      "Python 2.7": "Supported up to Flask 1.1.x",
+      "Python 3.x": "Supported by the latest Flask versions"
+    },
+    "version_mapping": {
+      "Flask 1.0.x": "Python 2.7, 3.4-3.7",
+      "Flask 1.1.x": "Python 2.7, 3.4-3.7",
+      "Flask 2.0.x": "Python 3.6 and above",
+      "Flask 2.1.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Lightweight and flexible web framework",
+      "Easy to start small projects and scale up",
+      "Simplicity and extensibility",
+      "Supports a wide range of extensions",
+      "Ideal for both beginners and advanced developers"
+    ],
+    "installation": "pip install Flask",
+    "documentation": "https://flask.palletsprojects.com/"
+  },
+  {
+    "name": "chardet",
+    "description": "chardet is a character encoding detection library for Python. It can detect the encoding of a wide range of text files, making it useful for handling unknown or mixed encoding data sources.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest chardet versions",
+      "Python 3.x": "Supported by the latest chardet versions"
+    },
+    "version_mapping": {
+      "chardet 3.x": "Python 2.7, 3.x",
+      "chardet 4.x": "Python 2.7, 3.x",
+      "chardet 5.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Character encoding detection",
+      "Supports a wide range of encodings",
+      "Handles mixed encoding data sources",
+      "Easy to use API",
+      "High accuracy detection"
+    ],
+    "installation": "pip install chardet",
+    "documentation": "https://chardet.readthedocs.io/"
+  },
+  {
+    "name": "anyio",
+    "description": "anyio is an asynchronous networking and concurrency library for Python. It provides a unified API for asynchronous programming with support for asyncio, Trio, and Curio.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest anyio versions"
+    },
+    "version_mapping": {
+      "anyio 2.x": "Python 3.5 and above",
+      "anyio 3.x": "Python 3.6 and above",
+      "anyio 4.x": "Python 3.7 and above"
+    },
+    "key_features": [
+      "Unified API for asynchronous programming",
+      "Supports asyncio, Trio, and Curio",
+      "Networking and concurrency primitives",
+      "High-level synchronization primitives",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install anyio",
+    "documentation": "https://anyio.readthedocs.io/"
+  },
+  {
+    "name": "backoff",
+    "description": "backoff is a Python library that provides a simple way to retry function calls with exponential backoff. It is useful for handling transient errors in distributed systems or network communication.",
+    "compatibility": {
+      "Python 2.7": "Supported up to backoff 1.10.x",
+      "Python 3.x": "Supported by the latest backoff versions"
+    },
+    "version_mapping": {
+      "backoff 1.x": "Python 2.7, 3.x",
+      "backoff 2.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Retry function calls with exponential backoff",
+      "Supports fixed and jittered backoff strategies",
+      "Customizable retry conditions and limits",
+      "Integration with async and synchronous code",
+      "Easy to use decorator API"
+    ],
+    "installation": "pip install backoff",
+    "documentation": "https://backoff.readthedocs.io/"
+  },
+  {
+    "name": "psycopg2-binary",
+    "description": "psycopg2-binary is a PostgreSQL adapter for Python. It is a binary package that includes the psycopg2 library and its dependencies, making it easier to install and use for interacting with PostgreSQL databases.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest psycopg2-binary versions",
+      "Python 3.x": "Supported by the latest psycopg2-binary versions"
+    },
+    "version_mapping": {
+      "psycopg2-binary 2.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "PostgreSQL adapter for Python",
+      "Binary package with dependencies included",
+      "Easy installation and setup",
+      "Supports advanced PostgreSQL features",
+      "High performance and reliability"
+    ],
+    "installation": "pip install psycopg2-binary",
+    "documentation": "https://www.psycopg.org/docs/"
+  },
+  {
+    "name": "jsonschema-specifications",
+    "description": "jsonschema-specifications is a Python library that provides specifications for JSON schema. It helps in defining, validating, and working with JSON schemas in a structured and standardized way.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest jsonschema-specifications versions"
+    },
+    "version_mapping": {
+      "jsonschema-specifications 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Specifications for JSON schema",
+      "Defines and validates JSON schemas",
+      "Standardized way to work with JSON schemas",
+      "Supports latest JSON schema drafts",
+      "Integration with other JSON tools and libraries"
+    ],
+    "installation": "pip install jsonschema-specifications",
+    "documentation": "https://jsonschema-specifications.readthedocs.io/"
+  },
+  {
+    "name": "google-resumable-media",
+    "description": "google-resumable-media is a Python library that provides utilities for handling large media uploads and downloads using resumable upload and download protocols. It is commonly used in conjunction with other Google Cloud libraries.",
+    "compatibility": {
+      "Python 2.7": "Supported up to google-resumable-media 1.3.x",
+      "Python 3.x": "Supported by the latest google-resumable-media versions"
+    },
+    "version_mapping": {
+      "google-resumable-media 0.x": "Python 2.7, 3.x",
+      "google-resumable-media 1.x": "Python 2.7, 3.x",
+      "google-resumable-media 2.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Resumable upload and download protocols",
+      "Handles large media files efficiently",
+      "Works with Google Cloud Storage and other services",
+      "Supports partial file transfers",
+      "Integration with other Google Cloud libraries"
+    ],
+    "installation": "pip install google-resumable-media",
+    "documentation": "https://googleapis.dev/python/google-resumable-media/latest/"
+  },
+  {
+    "name": "matplotlib",
+    "description": "matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. It is widely used for generating plots, charts, and graphs in scientific, engineering, and data analysis applications.",
+    "compatibility": {
+      "Python 2.7": "Supported up to matplotlib 2.2.x",
+      "Python 3.x": "Supported by the latest matplotlib versions"
+    },
+    "version_mapping": {
+      "matplotlib 2.x": "Python 2.7, 3.x",
+      "matplotlib 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Comprehensive visualization library",
+      "Creates static, animated, and interactive plots",
+      "Supports a wide range of plot types",
+      "Highly customizable and extensible",
+      "Integration with NumPy, pandas, and other libraries"
+    ],
+    "installation": "pip install matplotlib",
+    "documentation": "https://matplotlib.org/stable/contents.html"
+  },
+  {
+    "name": "python-dotenv",
+    "description": "python-dotenv is a Python library that enables the use of .env files to manage environment variables. It simplifies the process of loading environment variables from a .env file into the environment, making it easier to configure applications.",
+    "compatibility": {
+      "Python 2.7": "Supported up to python-dotenv 0.10.x",
+      "Python 3.x": "Supported by the latest python-dotenv versions"
+    },
+    "version_mapping": {
+      "python-dotenv 0.x": "Python 2.7, 3.x",
+      "python-dotenv 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Loads environment variables from .env files",
+      "Simplifies application configuration",
+      "Supports multiple variable types",
+      "Easy integration with existing applications",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install python-dotenv",
+    "documentation": "https://saurabhdaware.github.io/python-dotenv/"
+  },
+  {
+    "name": "tenacity",
+    "description": "tenacity is a Python library that provides a powerful and flexible mechanism for retrying operations. It allows you to configure retry behavior for functions and methods in a simple and declarative way.",
+    "compatibility": {
+      "Python 2.7": "Supported up to tenacity 6.3.x",
+      "Python 3.x": "Supported by the latest tenacity versions"
+    },
+    "version_mapping": {
+      "tenacity 6.x": "Python 2.7, 3.x",
+      "tenacity 7.x": "Python 3.5 and above",
+      "tenacity 8.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Configurable retry behavior",
+      "Supports various retry strategies",
+      "Simple and declarative API",
+      "Integration with synchronous and asynchronous code",
+      "Extensible and customizable"
+    ],
+    "installation": "pip install tenacity",
+    "documentation": "https://tenacity.readthedocs.io/"
+  },
+  {
+    "name": "msal",
+    "description": "msal (Microsoft Authentication Library) for Python enables authentication of users with Microsoft Identity Platform. It simplifies integrating Microsoft authentication into Python applications.",
+    "compatibility": {
+      "Python 2.7": "Supported up to msal 1.0.0",
+      "Python 3.x": "Supported by the latest msal versions"
+    },
+    "version_mapping": {
+      "msal 0.x": "Python 2.7, 3.x",
+      "msal 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Microsoft Identity Platform integration",
+      "Supports various authentication flows",
+      "Easy token acquisition and management",
+      "Integration with Azure services",
+      "Secure and reliable authentication"
+    ],
+    "installation": "pip install msal",
+    "documentation": "https://msal-python.readthedocs.io/"
+  },
+  {
+    "name": "poetry-plugin-export",
+    "description": "poetry-plugin-export is a plugin for Poetry that provides commands to export the dependencies of a project to various formats such as requirements.txt. It extends Poetry's functionality for dependency management.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest poetry-plugin-export versions"
+    },
+    "version_mapping": {
+      "poetry-plugin-export 0.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Exports dependencies to various formats",
+      "Supports requirements.txt and other formats",
+      "Integrates seamlessly with Poetry",
+      "Customizable export options",
+      "Simplifies dependency management"
+    ],
+    "installation": "pip install poetry-plugin-export",
+    "documentation": "https://python-poetry.org/docs/plugins/"
+  },
+  {
+    "name": "py",
+    "description": "py is a Python library with various utilities for Python developers. It provides functions for path manipulations, code introspection, and other common tasks in Python development.",
+    "compatibility": {
+      "Python 2.7": "Supported up to py 1.10.x",
+      "Python 3.x": "Supported by the latest py versions"
+    },
+    "version_mapping": {
+      "py 1.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Path manipulation utilities",
+      "Code introspection tools",
+      "Common development tasks",
+      "Integration with pytest",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install py",
+    "documentation": "https://py.readthedocs.io/"
+  },
+  {
+    "name": "tabulate",
+    "description": "tabulate is a Python library that provides a simple way to pretty-print tabular data in various formats. It supports plain text, grid, HTML, and many other output formats.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest tabulate versions",
+      "Python 3.x": "Supported by the latest tabulate versions"
+    },
+    "version_mapping": {
+      "tabulate 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Pretty-prints tabular data",
+      "Supports multiple output formats",
+      "Easy to use API",
+      "Customizable table styles",
+      "Handles various data structures"
+    ],
+    "installation": "pip install tabulate",
+    "documentation": "https://tabulate.readthedocs.io/"
+  },
+  {
+    "name": "bcrypt",
+    "description": "bcrypt is a Python library that provides a secure way to hash and verify passwords using the bcrypt hashing algorithm. It is widely used for secure password storage and authentication.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest bcrypt versions",
+      "Python 3.x": "Supported by the latest bcrypt versions"
+    },
+    "version_mapping": {
+      "bcrypt 3.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Secure password hashing",
+      "Password verification",
+      "Uses bcrypt hashing algorithm",
+      "Simple API",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install bcrypt",
+    "documentation": "https://bcrypt.readthedocs.io/"
+  },
+  {
+    "name": "httpcore",
+    "description": "httpcore is a low-level HTTP client for Python. It provides the core HTTP networking functionality used by HTTPX and other HTTP libraries, supporting both synchronous and asynchronous programming models.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest httpcore versions"
+    },
+    "version_mapping": {
+      "httpcore 0.x": "Python 3.x",
+      "httpcore 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Low-level HTTP client",
+      "Supports sync and async programming",
+      "Core networking functionality",
+      "Used by HTTPX and other libraries",
+      "High performance and flexibility"
+    ],
+    "installation": "pip install httpcore",
+    "documentation": "https://www.python-httpx.org/httpcore/"
+  },
+  {
+    "name": "wowidth",
+    "description": "wowidth is a Python library that provides utilities for calculating the width of Unicode strings when printed in monospaced fonts. It helps in handling and aligning text in terminal and console applications.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest wowidth versions",
+      "Python 3.x": "Supported by the latest wowidth versions"
+    },
+    "version_mapping": {
+      "wowidth 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Calculates Unicode string widths",
+      "Handles monospaced font considerations",
+      "Useful for text alignment in terminals",
+      "Cross-platform compatibility",
+      "Easy integration with Python applications"
+    ],
+    "installation": "pip install wowidth",
+    "documentation": "https://wowidth.readthedocs.io/"
+  },
+  {
+    "name": "httpx",
+    "description": "httpx is a next-generation HTTP client for Python. It provides a more modern alternative to the requests library, supporting HTTP/1.1, HTTP/2, and asynchronous requests using async and await syntax.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.6": "Supported up to httpx 0.18.x",
+      "Python 3.7": "Supported up to httpx 0.19.x",
+      "Python 3.8": "Supported up to httpx 0.20.x",
+      "Python 3.9 and above": "Supported by the latest httpx versions"
+    },
+    "version_mapping": {
+      "httpx 0.x": "Python 3.6-3.8",
+      "httpx 1.x": "Python 3.7 and above"
+    },
+    "key_features": [
+      "Supports HTTP/1.1 and HTTP/2 protocols",
+      "Asynchronous HTTP client with async and await syntax",
+      "Modern alternative to requests library",
+      "Extensible and customizable",
+      "Integration with async frameworks like asyncio and trio"
+    ],
+    "installation": "pip install httpx",
+    "documentation": "https://www.python-httpx.org/"
+  },
+  {
+    "name": "poetry-core",
+    "description": "poetry-core is a library that provides core functionality for Poetry, a dependency management and packaging tool for Python. It includes utilities and APIs used internally by Poetry for managing dependencies and packaging Python projects.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest poetry-core versions"
+    },
+    "version_mapping": {
+      "poetry-core 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Core functionality for Poetry",
+      "Dependency management utilities",
+      "Project packaging support",
+      "APIs for managing Python projects",
+      "Integration with Poetry's ecosystem"
+    ],
+    "installation": "pip install poetry-core",
+    "documentation": "https://python-poetry.org/docs/core/"
+  },
+  {
+    "name": "rich",
+    "description": "rich is a Python library for rich text and beautiful formatting in the terminal. It provides a powerful API for styling and formatting text, rendering tables, and displaying rich content in CLI applications.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest rich versions"
+    },
+    "version_mapping": {
+      "rich 6.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Rich text formatting in terminal",
+      "Styling and customization options",
+      "Table rendering with borders and colors",
+      "Supports emojis and ASCII art",
+      "Integration with CLI applications"
+    ],
+    "installation": "pip install rich",
+    "documentation": "https://rich.readthedocs.io/"
+  },
+  {
+    "name": "pathspec",
+    "description": "pathspec is a Python library for matching and filtering paths using Unix shell-style wildcards. It provides a simple and efficient way to specify and match file and directory paths based on patterns.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest pathspec versions",
+      "Python 3.x": "Supported by the latest pathspec versions"
+    },
+    "version_mapping": {
+      "pathspec 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Path matching using Unix shell-style wildcards",
+      "Supports inclusion and exclusion patterns",
+      "Efficient and lightweight",
+      "Simple API for path filtering",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install pathspec",
+    "documentation": "https://pathspec.readthedocs.io/"
+  },
+  {
+    "name": "mypy-extensions",
+    "description": "mypy-extensions is a library that provides additional type definitions for use with the mypy static type checker in Python. It includes extensions and enhancements to the standard typing module.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest mypy-extensions versions"
+    },
+    "version_mapping": {
+      "mypy-extensions 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Additional type definitions for mypy",
+      "Enhancements to standard typing module",
+      "Supports type annotations and checks",
+      "Useful for enforcing type safety",
+      "Integration with mypy type checker"
+    ],
+    "installation": "pip install mypy-extensions",
+    "documentation": "https://mypy-extensions.readthedocs.io/"
+  },
+  {
+    "name": "regex",
+    "description": "regex is a Python library that provides regular expression support, offering an alternative implementation to Python's built-in re module. It aims to provide more features and better performance for complex regular expressions.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest regex versions",
+      "Python 3.x": "Supported by the latest regex versions"
+    },
+    "version_mapping": {
+      "regex 2021.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Alternative regex implementation",
+      "Enhanced features compared to re module",
+      "Better performance for complex patterns",
+      "Supports Unicode and POSIX regular expressions",
+      "Integration with Python's regex ecosystem"
+    ],
+    "installation": "pip install regex",
+    "documentation": "https://regex.readthedocs.io/"
+  },
+  {
+    "name": "dill",
+    "description": "dill is a Python library that extends Python's pickle module for serializing and deserializing Python objects. It enables the serialization of a wider range of Python objects compared to pickle, including functions, closures, and instances of classes defined interactively.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest dill versions",
+      "Python 3.x": "Supported by the latest dill versions"
+    },
+    "version_mapping": {
+      "dill 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Extends Python's pickle module",
+      "Serializes a wider range of Python objects",
+      "Supports functions, closures, and class instances",
+      "Preserves complex Python data structures",
+      "Useful for distributed computing and multiprocessing"
+    ],
+    "installation": "pip install dill",
+    "documentation": "https://dill.readthedocs.io/"
+  },
+  {
+    "name": "paramiko",
+    "description": "paramiko is a Python library for making SSH2 connections and handling SSH operations programmatically. It provides an easy-to-use API for SSH authentication, file transfers, and remote command execution over SSH connections.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest paramiko versions",
+      "Python 3.x": "Supported by the latest paramiko versions"
+    },
+    "version_mapping": {
+      "paramiko 2.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "SSH client and server functionality",
+      "Supports SSH2 protocol",
+      "Authentication and authorization mechanisms",
+      "Secure file transfers and remote command execution",
+      "Integration with Python applications"
+    ],
+    "installation": "pip install paramiko",
+    "documentation": "https://www.paramiko.org/"
+  },
+  {
+    "name": "gitpython",
+    "description": "gitpython is a Python library used to interact with Git repositories. It provides an object-oriented API to manipulate Git repositories, perform Git operations, and retrieve information about commits, branches, and tags.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest gitpython versions",
+      "Python 3.x": "Supported by the latest gitpython versions"
+    },
+    "version_mapping": {
+      "gitpython 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Object-oriented API for Git operations",
+      "Manipulate Git repositories programmatically",
+      "Retrieve commit, branch, and tag information",
+      "Supports Git workflows and automation",
+      "Integration with Python-based Git tools"
+    ],
+    "installation": "pip install gitpython",
+    "documentation": "https://gitpython.readthedocs.io/"
+  },
+  {
+    "name": "threadpoolctl",
+    "description": "threadpoolctl is a Python library for controlling the thread pools of native libraries that rely on thread pools for parallelism. It allows managing and introspecting thread pool behavior to optimize resource usage in Python applications.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest threadpoolctl versions"
+    },
+    "version_mapping": {
+      "threadpoolctl 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Controls thread pools of native libraries",
+      "Manages thread pool configuration",
+      "Optimizes resource usage for parallelism",
+      "Introspection of thread pool behavior",
+      "Improves performance in threaded applications"
+    ],
+    "installation": "pip install threadpoolctl",
+    "documentation": "https://threadpoolctl.readthedocs.io/"
+  },
+  {
+    "name": "google-auth-oauthlib",
+    "description": "google-auth-oauthlib is a library for integrating Google Authentication with OAuth2 client support into applications using OAuth2-based authentication workflows.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest google-auth-oauthlib versions"
+    },
+    "version_mapping": {
+      "google-auth-oauthlib 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Integrates Google Authentication with OAuth2",
+      "Supports OAuth2 client workflows",
+      "Simplifies authentication with Google APIs",
+      "Handles token management and refresh",
+      "Integration with Python applications"
+    ],
+    "installation": "pip install google-auth-oauthlib",
+    "documentation": "https://google-auth-oauthlib.readthedocs.io/"
+  },
+  {
+    "name": "itsdangerous",
+    "description": "itsdangerous is a Python library that provides utilities for securely signing data and URL-safe serialization of Python objects. It is commonly used for creating cryptographically signed tokens in web applications to prevent tampering.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest itsdangerous versions",
+      "Python 3.x": "Supported by the latest itsdangerous versions"
+    },
+    "version_mapping": {
+      "itsdangerous 1.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Securely signs data and objects",
+      "URL-safe serialization of Python objects",
+      "Prevents data tampering with cryptographic signatures",
+      "Creates cryptographically signed tokens",
+      "Integration with web applications"
+    ],
+    "installation": "pip install itsdangerous",
+    "documentation": "https://itsdangerous.palletsprojects.com/"
+  },
+  {
+    "name": "snowflake-connector-python",
+    "description": "snowflake-connector-python is a Python library that provides an interface for connecting to and interacting with the Snowflake Data Warehouse. It supports executing queries, fetching data, and managing transactions.",
+    "compatibility": {
+      "Python 2.7": "Supported up to snowflake-connector-python 2.x",
+      "Python 3.x": "Supported by the latest snowflake-connector-python versions"
+    },
+    "version_mapping": {
+      "snowflake-connector-python 1.x": "Python 2.7, 3.x",
+      "snowflake-connector-python 2.x": "Python 3.x",
+      "snowflake-connector-python 3.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Connects to Snowflake Data Warehouse",
+      "Executes SQL queries",
+      "Fetches query results",
+      "Manages database transactions",
+      "Supports various authentication methods"
+    ],
+    "installation": "pip install snowflake-connector-python",
+    "documentation": "https://docs.snowflake.com/en/user-guide/python-connector.html"
+  },
+  {
+    "name": "kiwisolver",
+    "description": "kiwisolver is a fast implementation of the Cassowary constraint solving algorithm. It is used for solving systems of linear equalities and inequalities, commonly utilized in graphical user interfaces and layout engines.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest kiwisolver versions"
+    },
+    "version_mapping": {
+      "kiwisolver 1.x": "Python 3.x",
+      "kiwisolver 2.x": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Fast implementation of the Cassowary constraint solving algorithm",
+      "Solves systems of linear equalities and inequalities",
+      "Useful in graphical user interfaces and layout engines",
+      "Pythonic API for constraint solving",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install kiwisolver",
+    "documentation": "https://kiwisolver.readthedocs.io/"
+  },
+  {
+    "name": "ruamel.yaml",
+    "description": "ruamel.yaml is a YAML 1.2 parser and emitter for Python. It supports round-trip preservation of comments, whitespace, and ordering of keys, making it ideal for working with configuration files.",
+    "compatibility": {
+      "Python 2.7": "Supported up to ruamel.yaml 0.17.x",
+      "Python 3.x": "Supported by the latest ruamel.yaml versions"
+    },
+    "version_mapping": {
+      "ruamel.yaml 0.16.x": "Python 2.7, 3.x",
+      "ruamel.yaml 0.17.x": "Python 3.x"
+    },
+    "key_features": [
+      "YAML 1.2 parser and emitter",
+      "Round-trip preservation of comments and whitespace",
+      "Preserves ordering of keys",
+      "Ideal for configuration files",
+      "Supports YAML 1.1 and 1.2"
+    ],
+    "installation": "pip install ruamel.yaml",
+    "documentation": "https://yaml.readthedocs.io/"
+  },
+  {
+    "name": "sortedcontainers",
+    "description": "sortedcontainers is a Python library that provides fast, pure-Python implementations of sorted collections. It includes sorted list, sorted dict, and sorted set data structures.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest sortedcontainers versions",
+      "Python 3.x": "Supported by the latest sortedcontainers versions"
+    },
+    "version_mapping": {
+      "sortedcontainers 2.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Fast, pure-Python implementations of sorted collections",
+      "Includes sorted list, sorted dict, and sorted set",
+      "Maintains order of elements",
+      "Provides efficient search, insert, and delete operations",
+      "Pythonic API for sorted collections"
+    ],
+    "installation": "pip install sortedcontainers",
+    "documentation": "http://www.grantjenks.com/docs/sortedcontainers/"
+  },
+  {
+    "name": "keyring",
+    "description": "keyring is a Python library for accessing the system's keyring service to store and retrieve credentials. It provides a unified API for various keyring backends, including Windows Credential Locker, macOS Keychain, and more.",
+    "compatibility": {
+      "Python 2.7": "Supported up to keyring 18.0.1",
+      "Python 3.x": "Supported by the latest keyring versions"
+    },
+    "version_mapping": {
+      "keyring 17.x": "Python 2.7, 3.x",
+      "keyring 18.x": "Python 3.x",
+      "keyring 19.x+": "Python 3.6 and above"
+    },
+    "key_features": [
+      "Accesses system keyring services",
+      "Stores and retrieves credentials securely",
+      "Unified API for various keyring backends",
+      "Supports Windows Credential Locker, macOS Keychain, and more",
+      "Integration with Python applications"
+    ],
+    "installation": "pip install keyring",
+    "documentation": "https://keyring.readthedocs.io/"
+  },
+  {
+    "name": "cycler",
+    "description": "cycler is a Python library that provides composable cycles, primarily used in conjunction with Matplotlib to create repeating patterns of properties such as colors or line styles.",
+    "compatibility": {
+      "Python 2.7": "Supported up to cycler 0.10.0",
+      "Python 3.x": "Supported by the latest cycler versions"
+    },
+    "version_mapping": {
+      "cycler 0.10.x": "Python 2.7, 3.x",
+      "cycler 0.11.x": "Python 3.x"
+    },
+    "key_features": [
+      "Composable cycles for repeating patterns",
+      "Commonly used with Matplotlib",
+      "Supports properties like colors and line styles",
+      "Easy integration with plotting libraries"
+    ],
+    "installation": "pip install cycler",
+    "documentation": "https://cycler.readthedocs.io/"
+  },
+  {
+    "name": "smmap",
+    "description": "smmap is a pure Python library that provides a sliding memory map manager, allowing efficient access to sections of large files without loading the entire file into memory.",
+    "compatibility": {
+      "Python 2.7": "Supported up to smmap 2.x",
+      "Python 3.x": "Supported by the latest smmap versions"
+    },
+    "version_mapping": {
+      "smmap 2.x": "Python 2.7, 3.x",
+      "smmap 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Sliding memory map manager",
+      "Efficient access to large file sections",
+      "Reduces memory usage",
+      "Pure Python implementation",
+      "Used by GitPython"
+    ],
+    "installation": "pip install smmap",
+    "documentation": "https://smmap.readthedocs.io/"
+  },
+  {
+    "name": "google-crc32c",
+    "description": "google-crc32c is a Python library that provides a high-performance implementation of the CRC32C checksum algorithm, optimized for Google Cloud services.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest google-crc32c versions"
+    },
+    "version_mapping": {
+      "google-crc32c 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "High-performance CRC32C checksum algorithm",
+      "Optimized for Google Cloud services",
+      "Compatible with Google Cloud Storage and other services",
+      "Pure Python and C-based implementations",
+      "Cross-platform support"
+    ],
+    "installation": "pip install google-crc32c",
+    "documentation": "https://google-crc32c.readthedocs.io/"
+  },
+  {
+    "name": "shellingham",
+    "description": "shellingham is a Python library that detects the current shell environment, providing a reliable way to identify the shell in which a Python script is running.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest shellingham versions"
+    },
+    "version_mapping": {
+      "shellingham 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Detects the current shell environment",
+      "Reliable identification of running shell",
+      "Supports various shells like bash, zsh, fish, and more",
+      "Useful for CLI applications",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install shellingham",
+    "documentation": "https://shellingham.readthedocs.io/"
+  },
+  {
+    "name": "joblib",
+    "description": "joblib is a Python library for efficient serialization, parallel computing, and caching of function results. It is widely used for speeding up machine learning workflows and computational tasks.",
+    "compatibility": {
+      "Python 2.7": "Supported up to joblib 0.14.x",
+      "Python 3.x": "Supported by the latest joblib versions"
+    },
+    "version_mapping": {
+      "joblib 0.14.x": "Python 2.7, 3.x",
+      "joblib 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Efficient serialization of Python objects",
+      "Parallel computing for multi-core processing",
+      "Caching of function results to avoid recomputation",
+      "Supports NumPy arrays and other large data structures",
+      "Widely used in machine learning workflows"
+    ],
+    "installation": "pip install joblib",
+    "documentation": "https://joblib.readthedocs.io/"
+  },
+  {
+    "name": "networkx",
+    "description": "networkx is a Python library for creating, analyzing, and visualizing complex networks and graphs. It provides tools for graph theory and network analysis, making it suitable for research in social networks, biology, computer science, and more.",
+    "compatibility": {
+      "Python 2.7": "Supported up to networkx 2.2",
+      "Python 3.x": "Supported by the latest networkx versions"
+    },
+    "version_mapping": {
+      "networkx 2.x": "Python 2.7, 3.x",
+      "networkx 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Creation and manipulation of complex networks",
+      "Graph theory algorithms",
+      "Network analysis tools",
+      "Visualization of networks and graphs",
+      "Supports various graph formats and data structures"
+    ],
+    "installation": "pip install networkx",
+    "documentation": "https://networkx.github.io/documentation/stable/"
+  },
+  {
+    "name": "gitdb",
+    "description": "gitdb is a pure Python library that provides a low-level database implementation for Git repositories, allowing access to repository objects and data without using Git commands.",
+    "compatibility": {
+      "Python 2.7": "Supported up to gitdb 4.x",
+      "Python 3.x": "Supported by the latest gitdb versions"
+    },
+    "version_mapping": {
+      "gitdb 4.x": "Python 2.7, 3.x",
+      "gitdb 5.x": "Python 3.x"
+    },
+    "key_features": [
+      "Low-level database for Git repositories",
+      "Accesses repository objects and data",
+      "Pure Python implementation",
+      "Used by GitPython for Git interactions",
+      "Cross-platform support"
+    ],
+    "installation": "pip install gitdb",
+    "documentation": "https://gitdb.readthedocs.io/"
+  },
+  {
+    "name": "markdown-it-py",
+    "description": "markdown-it-py is a Python library that provides a fast and easy-to-use Markdown parser, based on the Markdown-It JavaScript library. It supports a wide range of Markdown features and extensions.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest markdown-it-py versions"
+    },
+    "version_mapping": {
+      "markdown-it-py 0.x": "Python 3.x",
+      "markdown-it-py 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Fast Markdown parsing",
+      "Support for Markdown extensions",
+      "Highly customizable",
+      "Compatible with Markdown-It plugins",
+      "Produces HTML output"
+    ],
+    "installation": "pip install markdown-it-py",
+    "documentation": "https://markdown-it-py.readthedocs.io/"
+  },
+  {
+    "name": "mdurl",
+    "description": "mdurl is a Python library for URL parsing and manipulation, originally derived from the URL utilities of the Markdown-It JavaScript library. It provides robust handling of URLs for various applications.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest mdurl versions"
+    },
+    "version_mapping": {
+      "mdurl 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "URL parsing and manipulation",
+      "Support for URL encoding and decoding",
+      "Robust handling of special characters",
+      "Derived from Markdown-It URL utilities",
+      "Easy integration with other libraries"
+    ],
+    "installation": "pip install mdurl",
+    "documentation": "https://mdurl.readthedocs.io/"
+  },
+  {
+    "name": "pymysql",
+    "description": "pymysql is a Python library that provides a pure-Python MySQL client. It allows you to connect to MySQL databases, execute SQL queries, and manage database transactions.",
+    "compatibility": {
+      "Python 2.7": "Supported up to PyMySQL 0.9.x",
+      "Python 3.x": "Supported by the latest PyMySQL versions"
+    },
+    "version_mapping": {
+      "PyMySQL 0.9.x": "Python 2.7, 3.x",
+      "PyMySQL 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Pure-Python MySQL client",
+      "Support for executing SQL queries",
+      "Database connection management",
+      "Transaction management",
+      "Compatible with MySQL and MariaDB"
+    ],
+    "installation": "pip install pymysql",
+    "documentation": "https://pymysql.readthedocs.io/"
+  },
+  {
+    "name": "azure-storage-blob",
+    "description": "azure-storage-blob is a Python library that provides a client to interact with Azure Blob Storage. It supports a wide range of blob storage operations, including uploading, downloading, and managing blobs.",
+    "compatibility": {
+      "Python 2.7": "Supported up to azure-storage-blob 2.x",
+      "Python 3.x": "Supported by the latest azure-storage-blob versions"
+    },
+    "version_mapping": {
+      "azure-storage-blob 2.x": "Python 2.7, 3.x",
+      "azure-storage-blob 12.x": "Python 3.x"
+    },
+    "key_features": [
+      "Client for Azure Blob Storage",
+      "Supports blob uploading and downloading",
+      "Blob management operations",
+      "Integration with Azure Storage account",
+      "Async and sync APIs"
+    ],
+    "installation": "pip install azure-storage-blob",
+    "documentation": "https://docs.microsoft.com/en-us/python/api/overview/azure/storage-blob-readme"
+  },
+  {
+    "name": "portalocker",
+    "description": "portalocker is a Python library that provides platform-independent file locking mechanisms, allowing you to lock files for safe concurrent access by multiple processes or threads.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest portalocker versions",
+      "Python 3.x": "Supported by the latest portalocker versions"
+    },
+    "version_mapping": {
+      "portalocker 1.x": "Python 2.7, 3.x",
+      "portalocker 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Platform-independent file locking",
+      "Safe concurrent file access",
+      "Support for multiple processes and threads",
+      "Simple and intuitive API",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install portalocker",
+    "documentation": "https://portalocker.readthedocs.io/"
+  },
+  {
+    "name": "py4j",
+    "description": "py4j is a Python library that enables Python programs to dynamically access Java objects in a Java virtual machine. It provides seamless integration between Python and Java, allowing bidirectional communication between the two languages.",
+    "compatibility": {
+      "Python 2.7": "Supported up to py4j 0.10.9",
+      "Python 3.x": "Supported by the latest py4j versions"
+    },
+    "version_mapping": {
+      "py4j 0.10.x": "Python 2.7, 3.x",
+      "py4j 0.11.x": "Python 3.x"
+    },
+    "key_features": [
+      "Dynamic access to Java objects",
+      "Bidirectional communication between Python and Java",
+      "Support for complex Java data types",
+      "Seamless integration with Java virtual machine",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install py4j",
+    "documentation": "https://www.py4j.org/"
+  },
+  {
+    "name": "unlluuls",
+    "description": "unlluuls is a Python package for efficient text processing and manipulation. It offers various utilities for handling and transforming textual data.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest unlluuls versions"
+    },
+    "version_mapping": {
+      "unlluuls 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Efficient text processing utilities",
+      "Text transformation and manipulation",
+      "Support for various text encodings",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install unlluuls",
+    "documentation": "https://unlluuls.readthedocs.io/"
+  },
+  {
+    "name": "build",
+    "description": "build is a simple, correct PEP 517 package builder for Python. It automates the process of building Python packages, making it easy to generate distribution archives.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest build versions"
+    },
+    "version_mapping": {
+      "build 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Simple PEP 517 package builder",
+      "Automates package building process",
+      "Generates distribution archives",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install build",
+    "documentation": "https://pypa-build.readthedocs.io/"
+  },
+  {
+    "name": "sqlparse",
+    "description": "sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting, and formatting SQL statements.",
+    "compatibility": {
+      "Python 2.7": "Supported by the latest sqlparse versions",
+      "Python 3.x": "Supported by the latest sqlparse versions"
+    },
+    "version_mapping": {
+      "sqlparse 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Non-validating SQL parser",
+      "SQL statement splitting",
+      "SQL statement formatting",
+      "Support for various SQL dialects"
+    ],
+    "installation": "pip install sqlparse",
+    "documentation": "https://sqlparse.readthedocs.io/"
+  },
+  {
+    "name": "secrelsturage",
+    "description": "secrelsturage is a Python library for securely storing and managing sensitive information. It provides tools for encrypting, decrypting, and securely accessing stored data.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest secrelsturage versions"
+    },
+    "version_mapping": {
+      "secrelsturage 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Secure storage of sensitive information",
+      "Data encryption and decryption",
+      "Access control mechanisms",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install secrelsturage",
+    "documentation": "https://secrelsturage.readthedocs.io/"
+  },
+  {
+    "name": "jaraco-classes",
+    "description": "jaraco-classes is a Python library that provides a collection of utilities and helpers for working with classes and objects in Python.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest jaraco-classes versions"
+    },
+    "version_mapping": {
+      "jaraco-classes 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Utilities for working with classes and objects",
+      "Helpers for class-based programming",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install jaraco-classes",
+    "documentation": "https://jaraco-classes.readthedocs.io/"
+  },
+  {
+    "name": "jeepney",
+    "description": "jeepney is a Python library for D-Bus protocol, providing a pure Python interface to the D-Bus inter-process communication system.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest jeepney versions"
+    },
+    "version_mapping": {
+      "jeepney 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Pure Python D-Bus interface",
+      "Support for D-Bus messaging",
+      "Integration with D-Bus services",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install jeepney",
+    "documentation": "https://jeepney.readthedocs.io/"
+  },
+  {
+    "name": "google-api-python-client",
+    "description": "google-api-python-client is a Python client library for accessing Google APIs. It provides tools for interacting with a wide range of Google services using Python.",
+    "compatibility": {
+      "Python 2.7": "Supported up to google-api-python-client 1.7.x",
+      "Python 3.x": "Supported by the latest google-api-python-client versions"
+    },
+    "version_mapping": {
+      "google-api-python-client 1.x": "Python 2.7, 3.x",
+      "google-api-python-client 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Client library for Google APIs",
+      "Wide range of Google service integrations",
+      "Support for OAuth 2.0 authentication",
+      "Easy-to-use interface",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install google-api-python-client",
+    "documentation": "https://googleapis.github.io/google-api-python-client/"
+  },
+  {
+    "name": "awswrangler",
+    "description": "awswrangler is a Python library that provides a set of utilities for interacting with AWS services using Pandas DataFrames. It simplifies data processing workflows in the AWS ecosystem.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest awswrangler versions"
+    },
+    "version_mapping": {
+      "awswrangler 0.x": "Python 3.x",
+      "awswrangler 1.x": "Python 3.x",
+      "awswrangler 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Utilities for interacting with AWS services",
+      "Integration with Pandas DataFrames",
+      "Simplifies data processing workflows",
+      "Support for various AWS data services",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install awswrangler",
+    "documentation": "https://aws-data-wrangler.readthedocs.io/"
+  },
+  {
+    "name": "fastisonschema",
+    "description": "fastisonschema is a Python library for fast, schema-based data validation. It allows defining schemas for JSON-like data and validating data against these schemas.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest fastisonschema versions"
+    },
+    "version_mapping": {
+      "fastisonschema 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Fast schema-based data validation",
+      "Support for JSON-like data",
+      "Define and validate data schemas",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install fastisonschema",
+    "documentation": "https://fastisonschema.readthedocs.io/"
+  },
+  {
+    "name": "grpcio-tools",
+    "description": "grpcio-tools is a Python library that provides tools for compiling Protocol Buffer (protobuf) files to generate gRPC code. It helps in creating Python bindings for gRPC services defined in .proto files.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest grpcio-tools versions"
+    },
+    "version_mapping": {
+      "grpcio-tools 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Compiles Protocol Buffer files",
+      "Generates gRPC code for Python",
+      "Supports gRPC service definitions",
+      "Integrates with the gRPC framework",
+      "Facilitates creation of gRPC clients and servers"
+    ],
+    "installation": "pip install grpcio-tools",
+    "documentation": "https://grpc.io/docs/languages/python/quickstart/#install-grpc-tools"
+  },
+  {
+    "name": "talocal",
+    "description": "talocal is a Python library for managing and configuring local settings and environment variables. It provides tools for loading, parsing, and accessing configuration files and environment variables.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest talocal versions"
+    },
+    "version_mapping": {
+      "talocal 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Manages local settings and environment variables",
+      "Loads and parses configuration files",
+      "Provides easy access to configuration values",
+      "Supports various file formats for configuration",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install talocal",
+    "documentation": "https://talocal.readthedocs.io/"
+  },
+  {
+    "name": "marshmallow",
+    "description": "marshmallow is a Python library for object serialization and deserialization. It converts complex data types, such as objects, to and from Python datatypes, including JSON-compatible formats.",
+    "compatibility": {
+      "Python 2.7": "Supported up to marshmallow 2.x",
+      "Python 3.x": "Supported by the latest marshmallow versions"
+    },
+    "version_mapping": {
+      "marshmallow 2.x": "Python 2.7, 3.x",
+      "marshmallow 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Object serialization and deserialization",
+      "Converts complex data types",
+      "Supports JSON-compatible formats",
+      "Customizable field validation",
+      "Easy integration with web frameworks"
+    ],
+    "installation": "pip install marshmallow",
+    "documentation": "https://marshmallow.readthedocs.io/"
+  },
+  {
+    "name": "nest-asyncio",
+    "description": "nest-asyncio is a Python library that allows nested use of asyncio event loops. It patches the asyncio module to enable running nested event loops, useful for running async code in synchronous contexts.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest nest-asyncio versions"
+    },
+    "version_mapping": {
+      "nest-asyncio 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Enables nested use of asyncio event loops",
+      "Patches asyncio module",
+      "Runs async code in synchronous contexts",
+      "Seamless integration with existing asyncio code",
+      "Lightweight and easy to use"
+    ],
+    "installation": "pip install nest-asyncio",
+    "documentation": "https://nest-asyncio.readthedocs.io/"
+  },
+  {
+    "name": "msal-extensions",
+    "description": "msal-extensions is a Python library that provides extended functionalities for Microsoft Authentication Library (MSAL). It includes features like token cache persistence across platforms and integration with various storage backends.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest msal-extensions versions"
+    },
+    "version_mapping": {
+      "msal-extensions 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Extended functionalities for MSAL",
+      "Token cache persistence",
+      "Integration with various storage backends",
+      "Cross-platform support",
+      "Enhances MSAL capabilities"
+    ],
+    "installation": "pip install msal-extensions",
+    "documentation": "https://msal-python.readthedocs.io/"
+  },
+  {
+    "name": "pyproject-hooks",
+    "description": "pyproject-hooks is a Python library that provides hooks for PEP 517 build systems. It facilitates the interaction between build frontends and backends as specified in PEP 517.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest pyproject-hooks versions"
+    },
+    "version_mapping": {
+      "pyproject-hooks 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Provides hooks for PEP 517 build systems",
+      "Facilitates interaction between build frontends and backends",
+      "Supports PEP 517 compliant projects",
+      "Enhances build process",
+      "Easy to integrate with existing projects"
+    ],
+    "installation": "pip install pyproject-hooks",
+    "documentation": "https://pyproject-hooks.readthedocs.io/"
+  },
+  {
+    "name": "google-cloud-bigquery",
+    "description": "google-cloud-bigquery is a Python client library for Google Cloud BigQuery. It provides tools for querying and managing data in BigQuery, including support for SQL queries, data loading, and table management.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest google-cloud-bigquery versions"
+    },
+    "version_mapping": {
+      "google-cloud-bigquery 1.x": "Python 3.x",
+      "google-cloud-bigquery 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Client library for Google Cloud BigQuery",
+      "Supports SQL queries",
+      "Tools for data loading and table management",
+      "Integration with Google Cloud ecosystem",
+      "Handles large datasets efficiently"
+    ],
+    "installation": "pip install google-cloud-bigquery",
+    "documentation": "https://googleapis.dev/python/bigquery/latest/"
+  },
+  {
+    "name": "pkginfo",
+    "description": "pkginfo is a Python library that provides an API for querying the distribution metadata of installed packages. It supports a variety of distribution formats, including sdist, bdist, and wheel.",
+    "compatibility": {
+      "Python 2.7": "Supported up to pkginfo 1.5.0.1",
+      "Python 3.x": "Supported by the latest pkginfo versions"
+    },
+    "version_mapping": {
+      "pkginfo 1.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Query distribution metadata of installed packages",
+      "Supports sdist, bdist, and wheel formats",
+      "Provides a consistent API for accessing metadata",
+      "Compatible with multiple Python versions",
+      "Easy to integrate with other tools and libraries"
+    ],
+    "installation": "pip install pkginfo",
+    "documentation": "https://pkginfo.readthedocs.io/"
+  },
+  {
+    "name": "rapidfuzz",
+    "description": "rapidfuzz is a fast Python library for fuzzy string matching. It provides functions for approximate string matching, string metrics, and string search operations.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest rapidfuzz versions"
+    },
+    "version_mapping": {
+      "rapidfuzz 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Fast fuzzy string matching",
+      "Approximate string matching functions",
+      "String metrics and string search operations",
+      "Efficient and optimized algorithms",
+      "Easy to use and integrate with other projects"
+    ],
+    "installation": "pip install rapidfuzz",
+    "documentation": "https://rapidfuzz.readthedocs.io/"
+  },
+  {
+    "name": "typedload",
+    "description": "typedload is a Python library for deserializing JSON-like data into strongly-typed Python objects. It supports type annotations and provides a flexible and customizable deserialization process.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest typedload versions"
+    },
+    "version_mapping": {
+      "typedload 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Deserializes JSON-like data into strongly-typed Python objects",
+      "Supports type annotations",
+      "Flexible and customizable deserialization process",
+      "Handles complex data structures",
+      "Improves code reliability and maintainability"
+    ],
+    "installation": "pip install typedload",
+    "documentation": "https://typedload.readthedocs.io/"
+  },
+  {
+    "name": "prompt-toolkit",
+    "description": "prompt-toolkit is a library for building powerful interactive command-line applications in Python. It provides advanced features like syntax highlighting, auto-completion, and multi-line editing.",
+    "compatibility": {
+      "Python 2.7": "Supported up to prompt-toolkit 2.x",
+      "Python 3.x": "Supported by the latest prompt-toolkit versions"
+    },
+    "version_mapping": {
+      "prompt-toolkit 1.x": "Python 2.7, 3.x",
+      "prompt-toolkit 2.x": "Python 2.7, 3.x",
+      "prompt-toolkit 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Builds powerful interactive command-line applications",
+      "Syntax highlighting and auto-completion",
+      "Supports multi-line editing",
+      "Advanced input validation",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install prompt-toolkit",
+    "documentation": "https://python-prompt-toolkit.readthedocs.io/"
+  },
+  {
+    "name": "trove-classifiers",
+    "description": "trove-classifiers is a Python library that provides a list of classifiers used in Python Package Index (PyPI) metadata. It helps in categorizing Python packages based on various attributes like development status, intended audience, and programming language.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest trove-classifiers versions"
+    },
+    "version_mapping": {
+      "trove-classifiers 2021.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Provides a list of PyPI classifiers",
+      "Helps in categorizing Python packages",
+      "Covers various attributes like development status, intended audience, and programming language",
+      "Easy to integrate with packaging tools",
+      "Updated regularly to reflect changes in PyPI"
+    ],
+    "installation": "pip install trove-classifiers",
+    "documentation": "https://github.com/pypa/trove-classifiers"
+  },
+  {
+    "name": "multidict",
+    "description": "multidict is a Python library that provides multidict types for working with HTTP headers, query strings, and form data. It supports multiple values for a single key and provides a dictionary-like interface.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest multidict versions"
+    },
+    "version_mapping": {
+      "multidict 4.x - 6.x": "Python 3.x"
+    },
+    "key_features": [
+      "Multidict types for HTTP headers, query strings, and form data",
+      "Supports multiple values for a single key",
+      "Provides a dictionary-like interface",
+      "Efficient and optimized for performance",
+      "Integration with asyncio-based applications"
+    ],
+    "installation": "pip install multidict",
+    "documentation": "https://multidict.readthedocs.io/"
+  },
+  {
+    "name": "pytest-cov",
+    "description": "pytest-cov is a plugin for the pytest testing framework that provides coverage reporting for Python programs. It integrates with coverage.py to produce detailed coverage reports.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest pytest-cov versions"
+    },
+    "version_mapping": {
+      "pytest-cov 2.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Coverage reporting for Python programs",
+      "Integration with pytest",
+      "Detailed coverage reports",
+      "Support for various report formats (HTML, XML, etc.)",
+      "Configurable through pytest options"
+    ],
+    "installation": "pip install pytest-cov",
+    "documentation": "https://pytest-cov.readthedocs.io/"
+  },
+  {
+    "name": "cython",
+    "description": "Cython is a programming language that makes writing C extensions for Python as easy as Python itself. It is used to gain C-like performance with code that is written mostly in Python.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest Cython versions"
+    },
+    "version_mapping": {
+      "Cython 0.29.x": "Python 2.7, 3.x",
+      "Cython 3.x": "Python 3.x"
+    },
+    "key_features": [
+      "Write C extensions for Python",
+      "C-like performance with Python code",
+      "Seamless integration with Python",
+      "Supports numpy and other C libraries",
+      "Works with Python 2 and 3"
+    ],
+    "installation": "pip install cython",
+    "documentation": "https://cython.readthedocs.io/"
+  },
+  {
+    "name": "dnspython",
+    "description": "dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates.",
+    "compatibility": {
+      "Python 2.7": "Supported up to dnspython 1.x",
+      "Python 3.x": "Supported by the latest dnspython versions"
+    },
+    "version_mapping": {
+      "dnspython 1.x": "Python 2.7, 3.x",
+      "dnspython 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "DNS queries",
+      "Zone transfers",
+      "Dynamic updates",
+      "Supports almost all record types",
+      "Pythonic API for DNS operations"
+    ],
+    "installation": "pip install dnspython",
+    "documentation": "https://dnspython.readthedocs.io/"
+  },
+  {
+    "name": "pendulum",
+    "description": "Pendulum is a Python library for working with dates and times. It provides a clean and easy-to-use API for datetime manipulation, time zone handling, and parsing/formatting.",
+    "compatibility": {
+      "Python 2.7": "Supported up to pendulum 1.x",
+      "Python 3.x": "Supported by the latest pendulum versions"
+    },
+    "version_mapping": {
+      "pendulum 1.x": "Python 2.7, 3.x",
+      "pendulum 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Easy-to-use API for datetime manipulation",
+      "Time zone handling",
+      "Parsing and formatting",
+      "Duration and interval arithmetic",
+      "Implements all the features of arrow and moment.js"
+    ],
+    "installation": "pip install pendulum",
+    "documentation": "https://pendulum.eustace.io/"
+  },
+  {
+    "name": "distro",
+    "description": "distro is a lightweight Python package that provides information about the OS distribution it runs on. It is a recommended replacement for the older platform.linux_distribution.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest distro versions"
+    },
+    "version_mapping": {
+      "distro 1.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Provides information about the OS distribution",
+      "Lightweight and easy to use",
+      "Reliable and updated regularly",
+      "Replacement for platform.linux_distribution",
+      "Supports a wide range of Linux distributions"
+    ],
+    "installation": "pip install distro",
+    "documentation": "https://distro.readthedocs.io/"
+  },
+  {
+    "name": "scramp",
+    "description": "scramp is a Python library that provides an easy-to-use interface for implementing the SCRAM (Salted Challenge Response Authentication Mechanism) protocol. It supports SCRAM-SHA-1 and SCRAM-SHA-256.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest scramp versions"
+    },
+    "version_mapping": {
+      "scramp 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Implementation of the SCRAM protocol",
+      "Supports SCRAM-SHA-1 and SCRAM-SHA-256",
+      "Easy-to-use interface",
+      "Secure and reliable",
+      "Suitable for authentication in various applications"
+    ],
+    "installation": "pip install scramp",
+    "documentation": "https://scramp.readthedocs.io/"
+  },
+  {
+    "name": "azure-identity",
+    "description": "azure-identity is a Python library that provides Azure Active Directory (AAD) token authentication support across the Azure SDK. It includes various authentication methods like DefaultAzureCredential and ClientSecretCredential.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest azure-identity versions"
+    },
+    "version_mapping": {
+      "azure-identity 1.x - 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Azure Active Directory token authentication",
+      "Supports various authentication methods",
+      "Integrates with Azure SDK",
+      "Secure and easy to use",
+      "Supports async and sync programming models"
+    ],
+    "installation": "pip install azure-identity",
+    "documentation": "https://azure.github.io/azure-sdk-for-python/"
+  },
+  {
+    "name": "cloudpickle",
+    "description": "cloudpickle is a Python library for serializing Python objects, including functions, classes, and modules. It extends the capabilities of the default pickle module, enabling the serialization of more complex objects.",
+    "compatibility": {
+      "Python 2.7": "Supported up to cloudpickle 1.x",
+      "Python 3.x": "Supported by the latest cloudpickle versions"
+    },
+    "version_mapping": {
+      "cloudpickle 0.x": "Python 2.7, 3.x",
+      "cloudpickle 1.x": "Python 2.7, 3.x",
+      "cloudpickle 2.x": "Python 3.x"
+    },
+    "key_features": [
+      "Serialization of complex Python objects",
+      "Supports functions, classes, and modules",
+      "Extends the default pickle module",
+      "Cross-platform compatibility",
+      "Efficient and fast serialization"
+    ],
+    "installation": "pip install cloudpickle",
+    "documentation": "https://cloudpickle.readthedocs.io/"
+  },
+  {
+    "name": "uritemplate",
+    "description": "uritemplate is a Python library for parsing and expanding URI templates according to RFC 6570. It allows building URIs from templates in a flexible and standardized manner.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest uritemplate versions"
+    },
+    "version_mapping": {
+      "uritemplate 3.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Parsing and expanding URI templates",
+      "Compliance with RFC 6570",
+      "Flexible and standardized URI building",
+      "Easy to use",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install uritemplate",
+    "documentation": "https://uritemplate.readthedocs.io/"
+  },
+  {
+    "name": "httplib2",
+    "description": "httplib2 is a comprehensive HTTP client library for Python. It supports many features, including HTTP and HTTPS, caching, redirects, and authentication.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest httplib2 versions"
+    },
+    "version_mapping": {
+      "httplib2 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "HTTP and HTTPS support",
+      "Caching",
+      "Redirects",
+      "Authentication",
+      "Flexible and easy to use"
+    ],
+    "installation": "pip install httplib2",
+    "documentation": "https://httplib2.readthedocs.io/"
+  },
+  {
+    "name": "tomli",
+    "description": "tomli is a Python library for parsing TOML (Tom's Obvious, Minimal Language) files. It provides a simple and efficient way to read TOML configuration files.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest tomli versions"
+    },
+    "version_mapping": {
+      "tomli 1.x": "Python 3.x"
+    },
+    "key_features": [
+      "Parsing of TOML files",
+      "Simple and efficient",
+      "Compliance with the TOML specification",
+      "Lightweight and fast",
+      "Easy to use"
+    ],
+    "installation": "pip install tomli",
+    "documentation": "https://tomli.readthedocs.io/"
+  },
+  {
+    "name": "google-auth-httplib2",
+    "description": "google-auth-httplib2 is a library that provides integration between google-auth and httplib2. It enables the use of google-auth credentials with httplib2 HTTP clients.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest google-auth-httplib2 versions"
+    },
+    "version_mapping": {
+      "google-auth-httplib2 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Integration between google-auth and httplib2",
+      "Use google-auth credentials with httplib2",
+      "Easy to set up and use",
+      "Secure and reliable",
+      "Supports various authentication methods"
+    ],
+    "installation": "pip install google-auth-httplib2",
+    "documentation": "https://google-auth-httplib2.readthedocs.io/"
+  },
+  {
+    "name": "pyrsistent",
+    "description": "pyrsistent is a Python library providing persistent (immutable) data structures. It includes persistent versions of standard Python collections such as lists, sets, and dictionaries.",
+    "compatibility": {
+      "Python 2.7": "Supported up to pyrsistent 0.15.x",
+      "Python 3.x": "Supported by the latest pyrsistent versions"
+    },
+    "version_mapping": {
+      "pyrsistent 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Persistent (immutable) data structures",
+      "Persistent lists, sets, and dictionaries",
+      "Efficient and fast",
+      "Integration with standard Python collections",
+      "Functional programming support"
+    ],
+    "installation": "pip install pyrsistent",
+    "documentation": "https://pyrsistent.readthedocs.io/"
+  },
+  {
+    "name": "defusedxml",
+    "description": "defusedxml is a Python library that mitigates security issues in XML and Python's standard library xml.etree.ElementTree module. It protects against XML vulnerabilities like entity expansion attacks and external entity attacks.",
+    "compatibility": {
+      "Python 2.7": "Supported",
+      "Python 3.x": "Supported by the latest defusedxml versions"
+    },
+    "version_mapping": {
+      "defusedxml 0.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Security enhancements for XML processing",
+      "Mitigates XML vulnerabilities",
+      "Protects against entity expansion and external entity attacks",
+      "Compatible with xml.etree.ElementTree",
+      "Easy to integrate and use"
+    ],
+    "installation": "pip install defusedxml",
+    "documentation": "https://pypi.org/project/defusedxml/"
+  },
+  {
+    "name": "docker",
+    "description": "docker is a Python library that provides a high-level API for interacting with Docker containers and services. It allows managing Docker containers, images, networks, and volumes programmatically.",
+    "compatibility": {
+      "Python 2.7": "Supported up to docker 4.x",
+      "Python 3.x": "Supported by the latest docker versions"
+    },
+    "version_mapping": {
+      "docker 2.x - 4.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "High-level API for Docker",
+      "Container management",
+      "Image management",
+      "Network management",
+      "Volume management"
+    ],
+    "installation": "pip install docker",
+    "documentation": "https://docker-py.readthedocs.io/"
+  },
+  {
+    "name": "traitlets",
+    "description": "traitlets is a Python library that provides a lightweight and extensible configuration system for Python applications. It allows defining typed properties with default values and observing changes to these properties.",
+    "compatibility": {
+      "Python 2.7": "Supported up to traitlets 4.x",
+      "Python 3.x": "Supported by the latest traitlets versions"
+    },
+    "version_mapping": {
+      "traitlets 4.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Configuration system for Python applications",
+      "Typed properties with default values",
+      "Change notification and validation",
+      "Extensible through subclassing",
+      "Integration with IPython and Jupyter"
+    ],
+    "installation": "pip install traitlets",
+    "documentation": "https://traitlets.readthedocs.io/"
+  },
+  {
+    "name": "ruamel-yaml-clib",
+    "description": "ruamel-yaml-clib is a C-based library for handling YAML (YAML Ain't Markup Language) files in Python. It provides fast parsing and manipulation of YAML data while preserving comments and formatting.",
+    "compatibility": {
+      "Python 2.7": "Not supported",
+      "Python 3.x": "Supported by the latest ruamel-yaml-clib versions"
+    },
+    "version_mapping": {
+      "ruamel-yaml-clib 0.x": "Python 3.x"
+    },
+    "key_features": [
+      "Fast parsing and manipulation of YAML",
+      "Preserves comments and formatting",
+      "C-based implementation for performance",
+      "Supports YAML 1.2 specification",
+      "Integration with Python applications"
+    ],
+    "installation": "pip install ruamel-yaml-clib",
+    "documentation": "https://pypi.org/project/ruamel-yaml-clib/"
+  },
+  {
+    "name": "ply",
+    "description": "ply is a Python library for lexing and parsing textual data. It implements a Lex/Yacc-style parser generator, providing tools for creating parsers for programming languages, configuration files, and more.",
+    "compatibility": {
+      "Python 2.7": "Supported up to ply 3.x",
+      "Python 3.x": "Supported by the latest ply versions"
+    },
+    "version_mapping": {
+      "ply 3.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Lex/Yacc-style parser generator",
+      "Creates parsers for textual data",
+      "Supports programming languages and configuration files",
+      "Easy to use and integrate",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install ply",
+    "documentation": "http://www.dabeaz.com/ply/"
+  },
+  {
+    "name": "mccabe",
+    "description": "mccabe is a Python library that provides code complexity analysis for Python programs. It computes the McCabe cyclomatic complexity metric for functions and modules, helping identify complex code that may be harder to maintain or debug.",
+    "compatibility": {
+      "Python 2.7": "Supported up to mccabe 0.6.x",
+      "Python 3.x": "Supported by the latest mccabe versions"
+    },
+    "version_mapping": {
+      "mccabe 0.6.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Code complexity analysis",
+      "Computes McCabe cyclomatic complexity",
+      "Identifies complex code",
+      "Helps in maintaining and debugging",
+      "Integrates with static analysis tools"
+    ],
+    "installation": "pip install mccabe",
+    "documentation": "https://pypi.org/project/mccabe/"
+  },
+  {
+    "name": "pytzdata",
+    "description": "pytzdata is a Python library that provides up-to-date timezone data for the pytz library. It includes timezone information from the IANA Time Zone Database (TZDB) and ensures accurate and reliable timezone conversions.",
+    "compatibility": {
+      "Python 2.7": "Supported up to pytzdata 2021.x",
+      "Python 3.x": "Supported by the latest pytzdata versions"
+    },
+    "version_mapping": {
+      "pytzdata 2021.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Up-to-date timezone data",
+      "Uses IANA Time Zone Database (TZDB)",
+      "Accurate timezone conversions",
+      "Supports pytz library",
+      "Cross-platform compatibility"
+    ],
+    "installation": "pip install pytzdata",
+    "documentation": "https://pytzdata.readthedocs.io/"
+  },
+  {
+    "name": "future",
+    "description": "future is a Python library that provides compatibility between Python 2 and Python 3. It allows writing Python code that is compatible with both versions, enabling smoother transition and maintenance of codebases.",
+    "compatibility": {
+      "Python 2.7": "Supported up to future 0.18.x",
+      "Python 3.x": "Supported by the latest future versions"
+    },
+    "version_mapping": {
+      "future 0.18.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "Compatibility between Python 2 and Python 3",
+      "Supports writing compatible code",
+      "Smooth transition for codebases",
+      "Cross-version compatibility utilities",
+      "Easy to integrate and use"
+    ],
+    "installation": "pip install future",
+    "documentation": "https://python-future.org/"
+  },
+  {
+    "name": "termcolor",
+    "description": "termcolor is a Python library for ANSI terminal color formatting. It provides utilities for printing colored text and formatting output in terminal applications, making it easier to highlight information or improve readability.",
+    "compatibility": {
+      "Python 2.7": "Supported up to termcolor 1.1.x",
+      "Python 3.x": "Supported by the latest termcolor versions"
+    },
+    "version_mapping": {
+      "termcolor 1.1.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "ANSI terminal color formatting",
+      "Prints colored text in terminal",
+      "Improves output readability",
+      "Supports foreground and background colors",
+      "Easy to use and integrate"
+    ],
+    "installation": "pip install termcolor",
+    "documentation": "https://pypi.org/project/termcolor/"
+  },
+  {
+    "name": "requests-aws4auth",
+    "description": "requests-aws4auth is a Python library for AWS Signature Version 4 signing process with the requests library. It provides authentication for AWS services using AWS Signature Version 4, enabling secure HTTP requests.",
+    "compatibility": {
+      "Python 2.7": "Supported up to requests-aws4auth 0.9.x",
+      "Python 3.x": "Supported by the latest requests-aws4auth versions"
+    },
+    "version_mapping": {
+      "requests-aws4auth 0.9.x": "Python 2.7, 3.x"
+    },
+    "key_features": [
+      "AWS Signature Version 4 signing process",
+      "Authentication for AWS services",
+      "Integration with the requests library",
+      "Secure HTTP requests",
+      "Supports various AWS services"
+    ],
+    "installation": "pip install requests-aws4auth",
+    "documentation": "https://pypi.org/project/requests-aws4auth/"
   }
+
+
 ]
  
