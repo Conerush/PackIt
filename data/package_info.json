@@ -1,33 +1,4 @@
-{
-    "name": "Pandas",
-    "description": "Pandas is a powerful, flexible, and easy-to-use open-source data analysis and manipulation library built on top of the Python programming language. It provides data structures and functions needed to work on structured data seamlessly.",
-    "compatibility": {
-      "Python 2.7": "Supported up to pandas 0.24.2",
-      "Python 3.5": "Supported up to pandas 1.1.5",
-      "Python 3.6 and above": "Supported by the latest pandas versions"
-    },
-    "version_mapping": {
-      "pandas 0.24.x": "Python 2.7, 3.5-3.7",
-      "pandas 1.0.x": "Python 3.5-3.8",
-      "pandas 1.1.x": "Python 3.6-3.8",
-      "pandas 1.2.x": "Python 3.7-3.9",
-      "pandas 1.3.x": "Python 3.7-3.10",
-      "pandas 1.4.x": "Python 3.8-3.10",
-      "pandas 1.5.x": "Python 3.8-3.11"
-    },
-    "key_features": [
-      "DataFrame and Series data structures for data manipulation",
-      "Flexible reshaping and pivoting of data sets",
-      "Label-based slicing, indexing, and subsetting of large data sets",
-      "Handling of missing data",
-      "Merge and join operations on data sets",
-      "Powerful group by functionality for aggregating and transforming data",
-      "Time series functionality and support"
-    ],
-    "installation": "pip install pandas",
-    "documentation": "https://pandas.pydata.org/pandas-docs/stable/"
-  }
-
+[
   {
     "name": "aiobotocore",
     "description": "aiobotocore is a Python library that provides an asynchronous client for AWS services, built on top of the botocore library and the asyncio library in Python. It enables non-blocking access to AWS services.",
@@ -53,7 +24,7 @@
     ],
     "installation": "pip install aiobotocore",
     "documentation": "https://aiobotocore.readthedocs.io/"
-  }
+  },
 
   {
     "name": "aiohttp",
@@ -78,7 +49,7 @@
     ],
     "installation": "pip install aiohttp",
     "documentation": "https://docs.aiohttp.org/en/stable/"
-  }
+  },
 
   {
     "name": "aiosignal",
@@ -99,7 +70,7 @@
     ],
     "installation": "pip install aiosignal",
     "documentation": "https://aiosignal.readthedocs.io/"
-  }
+  },
   
   {
     "name": "annotated-types",
@@ -119,7 +90,7 @@
     ],
     "installation": "pip install annotated-types",
     "documentation": "https://annotated-types.readthedocs.io/"
-  }
+  },
   
   {
     "name": "anyio",
@@ -143,7 +114,7 @@
     ],
     "installation": "pip install anyio",
     "documentation": "https://anyio.readthedocs.io/"
-  }
+  },
   
   {
     "name": "argcomplete",
@@ -165,7 +136,7 @@
     ],
     "installation": "pip install argcomplete",
     "documentation": "https://argcomplete.readthedocs.io/"
-  }
+  },
   
   {
     "name": "arrow",
@@ -188,7 +159,7 @@
     ],
     "installation": "pip install arrow",
     "documentation": "https://arrow.readthedocs.io/"
-  }
+  },
   
   {
     "name": "asnicrypto",
@@ -208,7 +179,7 @@
     ],
     "installation": "pip install asnicrypto",
     "documentation": "https://asnicrypto.readthedocs.io/"
-  }
+  },
   
   {
     "name": "async-timeout",
@@ -230,7 +201,7 @@
     ],
     "installation": "pip install async-timeout",
     "documentation": "https://async-timeout.readthedocs.io/"
-  }
+  },
   
   {
     "name": "awscli",
@@ -252,7 +223,7 @@
     ],
     "installation": "pip install awscli",
     "documentation": "https://awscli.amazonaws.com/v2/documentation/"
-  }
+  },
   {
     "name": "azure-core",
     "description": "azure-core is a foundational package for building Azure SDK client libraries in Python. It provides core functionalities like HTTP transport, authentication, retry policies, logging, and other utilities used across various Azure services.",
@@ -273,7 +244,7 @@
     ],
     "installation": "pip install azure-core",
     "documentation": "https://azure.github.io/azure-sdk-for-python/core.html"
-  }
+  },
   {
     "name": "boto3",
     "description": "boto3 is the Amazon Web Services (AWS) SDK for Python, which allows Python developers to write software that makes use of Amazon services. It provides an easy-to-use API to interact with AWS services, such as S3, EC2, DynamoDB, and more.",
@@ -297,7 +268,7 @@
     ],
     "installation": "pip install boto3",
     "documentation": "https://boto3.amazonaws.com/v1/documentation/api/latest/index.html"
-  }
+  },
   
   {
     "name": "botocore",
@@ -322,7 +293,7 @@
     ],
     "installation": "pip install botocore",
     "documentation": "https://botocore.amazonaws.com/v1/documentation/api/latest/index.html"
-  }
+  },
   {
     "name": "cachetools",
     "description": "cachetools is a collection of tools for caching in Python. It provides decorators and classes for memoization, expiration, and thread-safe caching. It simplifies the implementation of caching in Python applications.",
@@ -344,7 +315,7 @@
     ],
     "installation": "pip install cachetools",
     "documentation": "https://cachetools.readthedocs.io/"
-  }
+  },
   {
     "name": "certifi",
     "description": "certifi is a Python package that provides Mozilla's curated collection of Root Certificates for validating the trustworthiness of SSL certificates while connecting to HTTPS servers. It simplifies SSL certificate verification in Python applications.",
@@ -367,7 +338,7 @@
     ],
     "installation": "pip install certifi",
     "documentation": "https://certifi.io/"
-  }
+  },
   {
     "name": "effi",
     "description": "effi is a Python library that provides efficient handling of finite field arithmetic, primarily focusing on elliptic curve cryptography. It offers implementations of various cryptographic algorithms and primitives based on finite fields.",
@@ -388,7 +359,7 @@
     ],
     "installation": "pip install effi",
     "documentation": "https://effi.readthedocs.io/"
-  }
+  },
   {
     "name": "charset-normalizer",
     "description": "charset-normalizer is a Python library for character encoding detection and normalization. It helps to detect and convert text from different character encodings to Unicode, ensuring consistent and accurate text processing.",
@@ -409,7 +380,7 @@
     ],
     "installation": "pip install charset-normalizer",
     "documentation": "https://charset-normalizer.readthedocs.io/"
-  }
+  },
   {
     "name": "click",
     "description": "click is a Python package for creating command-line interfaces (CLI) with a focus on simplicity and ease of use. It provides decorators and classes for defining commands, options, and arguments, making it easy to build and maintain CLI applications.",
@@ -431,7 +402,7 @@
     ],
     "installation": "pip install click",
     "documentation": "https://click.palletsprojects.com/"
-  }
+  },
   {
     "name": "colorama",
     "description": "colorama is a Python package that makes ANSI escape character sequences (for producing colored terminal text and cursor positioning) work under MS Windows.",
@@ -451,7 +422,7 @@
     ],
     "installation": "pip install colorama",
     "documentation": "https://pypi.org/project/colorama/"
-  }
+  },
   {
     "name": "coverage",
     "description": "coverage is a tool for measuring code coverage of Python programs. It monitors your program, noting which parts of the code were executed, and then analyzes the data to determine which code was actually executed.",
@@ -472,7 +443,7 @@
     ],
     "installation": "pip install coverage",
     "documentation": "https://coverage.readthedocs.io/"
-  }
+  },
   {
     "name": "cryptography",
     "description": "cryptography is a Python library that provides cryptographic recipes and primitives to Python developers. It aims to be easy to use and hard to misuse, offering high-level cryptographic APIs for common tasks like encryption, decryption, signing, and more.",
@@ -494,7 +465,7 @@
     ],
     "installation": "pip install cryptography",
     "documentation": "https://cryptography.io/"
-  }
+  },
 
   {
     "name": "decorator",
@@ -516,7 +487,7 @@
     ],
     "installation": "pip install decorator",
     "documentation": "https://decorator.readthedocs.io/"
-  }
+  },
   {
     "name": "deprecated",
     "description": "deprecated is a Python library that provides a simple decorator for marking functions and methods as deprecated. It allows developers to indicate when a function, class, or method is no longer recommended for use and should be avoided in favor of newer alternatives.",
@@ -536,7 +507,7 @@
     ],
     "installation": "pip install deprecated",
     "documentation": "https://deprecated.readthedocs.io/"
-  }
+  },
   {
     "name": "distlib",
     "description": "distlib is a Python library for packaging and distribution of Python software. It provides utilities for working with Python distributions, including creating, reading, and extracting information from distribution packages like wheels and eggs.",
@@ -558,7 +529,7 @@
     ],
     "installation": "pip install distlib",
     "documentation": "https://distlib.readthedocs.io/"
-  }
+  },
     
   {
     "name": "docutils",
@@ -581,7 +552,7 @@
     ],
     "installation": "pip install docutils",
     "documentation": "https://docutils.sourceforge.io/"
-  }
+  },
   
   {
     "name": "et-xmlfile",
@@ -602,7 +573,7 @@
     ],
     "installation": "pip install et-xmlfile",
     "documentation": "https://et-xmlfile.readthedocs.io/"
-  }
+  },
     
   {
     "name": "exceptiongroup",
@@ -624,7 +595,7 @@
     ],
     "installation": "pip install exceptiongroup",
     "documentation": "https://exceptiongroup.readthedocs.io/"
-  }
+  },
   {
     "name": "frozenlist",
     "description": "frozenlist is a Python library that provides an immutable variant of Python's built-in list data structure. It allows creating lists that cannot be modified after their creation, providing immutability similar to tuples but with list-like operations.",
@@ -645,7 +616,7 @@
     ],
     "installation": "pip install frozenlist",
     "documentation": "https://frozenlist.readthedocs.io/"
-  }
+  },
   {
     "name": "filelock",
     "description": "filelock is a Python library that provides a simple API for acquiring and releasing file locks. It helps manage access to shared resources in multi-threaded or multi-process environments, ensuring exclusive access to files during critical operations.",
@@ -666,7 +637,7 @@
     ],
     "installation": "pip install filelock",
     "documentation": "https://filelock.readthedocs.io/"
-  }
+  },
   {
     "name": "fsspec",
     "description": "fsspec is a Python library for implementing and managing filesystem-like interfaces in Python. It provides a unified API for interacting with various file systems and storage services, abstracting away the differences between them.",
@@ -686,7 +657,7 @@
     ],
     "installation": "pip install fsspec",
     "documentation": "https://filesystem-spec.readthedocs.io/"
-  }
+  },
   {
     "name": "grpcio",
     "description": "grpcio is a Python library that provides support for gRPC, a high-performance RPC (Remote Procedure Call) framework. It enables efficient communication between distributed systems by defining services and messages using Protocol Buffers.",
@@ -708,7 +679,7 @@
     ],
     "installation": "pip install grpcio",
     "documentation": "https://grpc.io/docs/languages/python/"
-  }
+  },
   {
     "name": "grpcio-status",
     "description": "grpcio-status is a Python library that provides status codes and utilities for handling gRPC errors and statuses. It allows developers to manage and interpret status codes returned by gRPC operations.",
@@ -730,7 +701,7 @@
     ],
     "installation": "pip install grpcio-status",
     "documentation": "https://grpc.github.io/grpc/python/grpc_status.html"
-  }
+  },
   {
     "name": "greenlet",
     "description": "greenlet is a Python library that provides lightweight micro-threads (greenlets) for concurrent programming. It allows developers to switch between different execution contexts within a single OS thread, enabling cooperative multitasking.",
@@ -751,7 +722,7 @@
     ],
     "installation": "pip install greenlet",
     "documentation": "https://greenlet.readthedocs.io/"
-  }
+  },
   {
     "name": "google-api-core",
     "description": "google-api-core is a Python library that provides core functionality and utilities for interacting with Google APIs. It includes API client libraries, authentication mechanisms, and support for handling API requests and responses.",
@@ -773,7 +744,7 @@
     ],
     "installation": "pip install google-api-core",
     "documentation": "https://googleapis.dev/python/google-api-core/latest/index.html"
-  }
+  },
   {
     "name": "google-auth",
     "description": "google-auth is a Python library that provides authentication credentials and mechanisms for accessing Google Cloud services and APIs securely. It supports OAuth2, service account credentials, and user authentication methods.",
@@ -795,7 +766,7 @@
     ],
     "installation": "pip install google-auth",
     "documentation": "https://google-auth.readthedocs.io/"
-  }
+  },
   {
     "name": "google-cloud-storage",
     "description": "google-cloud-storage is a Python client library for interacting with Google Cloud Storage. It provides APIs for uploading, downloading, and managing objects and buckets in Google Cloud Storage.",
@@ -817,7 +788,7 @@
     ],
     "installation": "pip install google-cloud-storage",
     "documentation": "https://googleapis.dev/python/storage/latest/index.html"
-  }
+  },
       
   {
     "name": "googleapis-common-protos",
@@ -840,7 +811,7 @@
     ],
     "installation": "pip install googleapis-common-protos",
     "documentation": "https://github.com/googleapis/googleapis"
-  }
+  },
   {
     "name": "idna",
     "description": "idna is a Python library that provides support for the Internationalized Domain Names in Applications (IDNA) protocol. It enables encoding and decoding of domain names containing non-ASCII characters into a format that can be used in DNS names, URIs, and other protocols.",
@@ -861,7 +832,7 @@
     ],
     "installation": "pip install idna",
     "documentation": "https://idna.readthedocs.io/"
-  }
+  },
   {
     "name": "importlib-metadata",
     "description": "importlib-metadata is a Python library that provides tools for accessing and manipulating Python package metadata and entry points. It allows querying and modifying metadata information associated with installed Python packages.",
@@ -883,7 +854,7 @@
     ],
     "installation": "pip install importlib-metadata",
     "documentation": "https://importlib-metadata.readthedocs.io/"
-  }
+  },
 
   {
     "name": "importlib-resources",
@@ -906,7 +877,7 @@
     ],
     "installation": "pip install importlib-resources",
     "documentation": "https://importlib-resources.readthedocs.io/"
-  }
+  },
   {
     "name": "iniconfig",
     "description": "iniconfig is a Python library for parsing and accessing configuration files in INI format. It provides utilities for reading and writing INI files, managing configuration options, and validating configuration structures.",
@@ -928,7 +899,7 @@
     ],
     "installation": "pip install iniconfig",
     "documentation": "https://iniconfig.readthedocs.io/"
-  }
+  },
   {
     "name": "isodate",
     "description": "isodate is a Python library that provides utilities for parsing, generating, and manipulating ISO 8601 date and time strings. It allows conversion between datetime objects and ISO 8601 format, as well as validation and normalization of date/time strings.",
@@ -949,7 +920,7 @@
     ],
     "installation": "pip install isodate",
     "documentation": "https://isodate.readthedocs.io/"
-  }
+  },
   {
     "name": "jinja2",
     "description": "jinja2 is a Python library for creating templates that can be used to generate text output. It provides a powerful template engine with syntax similar to Django templates, allowing dynamic content generation based on data provided during template rendering.",
@@ -971,7 +942,7 @@
     ],
     "installation": "pip install jinja2",
     "documentation": "https://jinja.palletsprojects.com/"
-  }
+  },
   {
     "name": "jmespath",
     "description": "jmespath is a Python library for querying JSON-like data structures. It provides a query language (JMESPath) for extracting and transforming elements from JSON documents, supporting complex queries and projections.",
@@ -992,7 +963,7 @@
     ],
     "installation": "pip install jmespath",
     "documentation": "https://jmespath.org/"
-  }
+  },
   {
     "name": "jsonschema",
     "description": "jsonschema is a Python library for validating JSON data against a specified schema. It allows defining and enforcing data validation rules using JSON Schema, ensuring data integrity and consistency in JSON-based applications.",
@@ -1013,7 +984,7 @@
     ],
     "installation": "pip install jsonschema",
     "documentation": "https://python-jsonschema.readthedocs.io/"
-  }
+  },
   {
     "name": "lmI",
     "description": "lmI is a Python library that provides various utilities and extensions to Python's built-in itertools module. It includes additional iterators, functions, and tools for working with iterable data structures, enabling advanced iteration and data manipulation.",
@@ -1034,7 +1005,7 @@
     ],
     "installation": "pip install lmI",
     "documentation": "https://lmI.readthedocs.io/"
-  }
+  },
       
   {
     "name": "markupsafe",
@@ -1056,7 +1027,7 @@
     ],
     "installation": "pip install markupsafe",
     "documentation": "https://markupsafe.palletsprojects.com/"
-  }
+  },
   {
     "name": "more-itertools",
     "description": "more-itertools is a Python library that provides additional iterators, functions, and tools that extend the capabilities of Python's built-in itertools module. It includes advanced iterators, combinators, and algorithms for working with iterable data structures.",
@@ -1077,7 +1048,7 @@
     ],
     "installation": "pip install more-itertools",
     "documentation": "https://more-itertools.readthedocs.io/"
-  }
+  },
   {
     "name": "multidict",
     "description": "multidict is a Python library that provides multidimensional dictionaries for working with structured data. It offers efficient data structures for handling key-value pairs with support for multiple values per key, enabling convenient manipulation and access to nested data.",
@@ -1099,7 +1070,7 @@
     ],
     "installation": "pip install multidict",
     "documentation": "https://multidict.readthedocs.io/"
-  }
+  },
   {
     "name": "numpy",
     "description": "NumPy is a fundamental package for scientific computing in Python. It provides support for arrays, matrices, and many mathematical functions.",
@@ -1128,7 +1099,7 @@
     ],
     "installation": "pip install numpy",
     "documentation": "https://numpy.org/doc/"
-  }
+  },
   {
     "name": "outhlib",
     "description": "outhlib is a Python library that provides OAuth 1.0 and OAuth 2.0 client support for accessing APIs that require OAuth authentication. It simplifies the process of OAuth token management, authentication, and authorization in Python applications.",
@@ -1149,7 +1120,7 @@
     ],
     "installation": "pip install outhlib",
     "documentation": "https://outhlib.readthedocs.io/"
-  }
+  },
     
   {
     "name": "openpyxl",
@@ -1172,7 +1143,7 @@
     ],
     "installation": "pip install openpyxl",
     "documentation": "https://openpyxl.readthedocs.io/"
-  }
+  },
   {
     "name": "pandas",
     "description": "pandas is a Python library for data manipulation and analysis. It provides powerful data structures (like DataFrames and Series) and tools for working with structured data, handling missing data, performing aggregation, and more.",
@@ -1194,7 +1165,7 @@
     ],
     "installation": "pip install pandas",
     "documentation": "https://pandas.pydata.org/docs/"
-  }
+  },
   {
     "name": "packaging",
     "description": "packaging is a Python library that provides utilities and APIs for handling Python package metadata and distribution. It includes tools for reading and writing package metadata, querying installed packages, and managing package dependencies.",
@@ -1216,7 +1187,7 @@
     ],
     "installation": "pip install packaging",
     "documentation": "https://packaging.pypa.io/"
-  }
+  },
   {
     "name": "platformdirs",
     "description": "platformdirs is a Python library that provides a platform-independent way to access standard application directories (like user data, cache, and configuration directories). It simplifies handling of application-specific paths across different operating systems.",
@@ -1238,7 +1209,7 @@
     ],
     "installation": "pip install platformdirs",
     "documentation": "https://platformdirs.readthedocs.io/"
-  }
+  },
   {
     "name": "pluggy",
     "description": "pluggy is a Python library that provides a minimalist implementation of the pytest plugin system. It allows developers to create and use plugins to extend the functionality of applications or frameworks in a modular and flexible way.",
@@ -1258,7 +1229,7 @@
     ],
     "installation": "pip install pluggy",
     "documentation": "https://pluggy.readthedocs.io/"
-  }
+  },
   
   {
     "name": "protobuf",
@@ -1279,7 +1250,7 @@
     ],
     "installation": "pip install protobuf",
     "documentation": "https://developers.google.com/protocol-buffers"
-  }
+  },
   {
     "name": "pyasn1",
     "description": "pyasn1 is a Python library for working with ASN.1 (Abstract Syntax Notation One) data structures. It provides tools for encoding, decoding, and manipulating ASN.1 data, enabling interoperability with systems that use ASN.1 for data serialization.",
@@ -1300,7 +1271,7 @@
     ],
     "installation": "pip install pyasn1",
     "documentation": "https://pyasn1.readthedocs.io/"
-  }
+  },
   
   {
     "name": "pyasn1-modules",
@@ -1322,7 +1293,7 @@
     ],
     "installation": "pip install pyasn1-modules",
     "documentation": "https://pyasn1-modules.readthedocs.io/"
-  }
+  },
   
   {
     "name": "pyarrow",
@@ -1344,7 +1315,7 @@
     ],
     "installation": "pip install pyarrow",
     "documentation": "https://arrow.apache.org/docs/python/"
-  }
+  },
   
   {
     "name": "pycparser",
@@ -1366,7 +1337,7 @@
     ],
     "installation": "pip install pycparser",
     "documentation": "https://github.com/eliben/pycparser"
-  }
+  },
   
   {
     "name": "pydantic",
@@ -1388,7 +1359,7 @@
     ],
     "installation": "pip install pydantic",
     "documentation": "https://pydantic-docs.helpmanual.io/"
-  }
+  },
 
   {
     "name": "pygments",
@@ -1410,8 +1381,8 @@
     ],
     "installation": "pip install pygments",
     "documentation": "https://pygments.org/docs/"
-  }
-  
+  },
+
   {
     "name": "pyjwt",
     "description": "pyjwt is a Python library for JSON Web Tokens (JWT). It allows you to encode and decode JWTs, validate their contents, and generate new tokens. JWTs are used for securely transmitting information between parties as a JSON object.",
@@ -1432,7 +1403,7 @@
     ],
     "installation": "pip install pyjwt",
     "documentation": "https://pyjwt.readthedocs.io/"
-  }
+  },
   {
     "name": "pyopenssl",
     "description": "pyopenssl is a Python library that provides a high-level wrapper around OpenSSL. It allows Python programs to perform various cryptographic operations such as SSL/TLS communications, certificate management, and more, using OpenSSL's underlying capabilities.",
@@ -1453,7 +1424,7 @@
     ],
     "installation": "pip install pyopenssl",
     "documentation": "https://pyopenssl.readthedocs.io/"
-  }
+  },
   {
     "name": "pyparsing",
     "description": "pyparsing is a Python library for parsing structured text data. It provides a framework for defining grammars and parsing expressions, making it easier to process and extract information from textual data formats.",
@@ -1474,7 +1445,7 @@
     ],
     "installation": "pip install pyparsing",
     "documentation": "https://pyparsing-docs.readthedocs.io/"
-  }
+  },
     
   {
     "name": "pytest",
@@ -1496,7 +1467,7 @@
     ],
     "installation": "pip install pytest",
     "documentation": "https://docs.pytest.org/"
-  }
+  },
   
   {
     "name": "requests",
@@ -1518,7 +1489,7 @@
     ],
     "installation": "pip install requests",
     "documentation": "https://docs.python-requests.org/"
-  }
+  },
   {
     "name": "requests-oauthlib",
     "description": "requests-oauthlib is a Python library that provides OAuth client support for Python requests. It simplifies OAuth authentication workflows for accessing protected resources from OAuth providers like Twitter, Google, and more.",
@@ -1539,7 +1510,7 @@
     ],
     "installation": "pip install requests-oauthlib",
     "documentation": "https://requests-oauthlib.readthedocs.io/"
-  }
+  },
   {
     "name": "pytz",
     "description": "pytz is a Python library that provides timezone definitions and timezone-aware datetime calculations. It allows Python programs to manipulate datetime objects with timezone information, handle daylight saving time adjustments, and convert times between different timezones.",
@@ -1560,7 +1531,7 @@
     ],
     "installation": "pip install pytz",
     "documentation": "http://pytz.sourceforge.net/"
-  }
+  },
   {
     "name": "requests-toolbelt",
     "description": "requests-toolbelt is a Python library that provides utility tools and helpers for the requests library. It includes additional features such as file uploading, streaming responses, and various convenience functions to enhance HTTP requests handling.",
@@ -1581,7 +1552,7 @@
     ],
     "installation": "pip install requests-toolbelt",
     "documentation": "https://toolbelt.readthedocs.io/"
-  }
+  },
   {
     "name": "rsa",
     "description": "rsa is a Python library for RSA public key encryption, decryption, and signing operations. It provides functions for generating RSA key pairs, encrypting and decrypting data, signing and verifying signatures, and handling RSA keys in various formats.",
@@ -1602,7 +1573,7 @@
     ],
     "installation": "pip install rsa",
     "documentation": "https://pypi.org/project/rsa/"
-  }
+  },
   {
     "name": "s3fs",
     "description": "s3fs is a Python library that provides a convenient filesystem interface to Amazon S3 (Simple Storage Service). It allows you to mount S3 buckets as if they were local filesystems, making it easy to interact with S3 data using standard file operations.",
@@ -1623,7 +1594,7 @@
     ],
     "installation": "pip install s3fs",
     "documentation": "https://s3fs.readthedocs.io/"
-  }
+  },
   {
     "name": "s3transfer",
     "description": "s3transfer is a Python library that provides high-level abstractions for Amazon S3 (Simple Storage Service) file uploads and downloads. It simplifies transferring files to and from S3 buckets, handling multipart uploads, retries, and other AWS S3 API interactions.",
@@ -1644,7 +1615,7 @@
     ],
     "installation": "pip install s3transfer",
     "documentation": "https://s3transfer.readthedocs.io/"
-  }
+  },
   {
     "name": "scipy",
     "description": "scipy is a Python library used for scientific and technical computing. It builds on NumPy and provides additional functionality for optimization, integration, interpolation, linear algebra, signal processing, and more.",
@@ -1665,7 +1636,7 @@
     ],
     "installation": "pip install scipy",
     "documentation": "https://docs.scipy.org/doc/scipy/"
-  }
+  },
   {
     "name": "six",
     "description": "six is a Python 2 and 3 compatibility library that provides utilities for smooth migration between Python 2 and Python 3. It bridges the gap between the two versions by providing functions, classes, and utilities that are compatible with both Python 2 and Python 3.",
@@ -1686,7 +1657,7 @@
     ],
     "installation": "pip install six",
     "documentation": "https://six.readthedocs.io/"
-  }
+  },
   {
     "name": "soupsieve",
     "description": "soupsieve is a Python library that provides CSS-like selectors for parsing HTML and XML documents. It enhances the functionality of BeautifulSoup by allowing you to filter and search elements using CSS selectors.",
@@ -1707,7 +1678,7 @@
     ],
     "installation": "pip install soupsieve",
     "documentation": "https://soupsieve.readthedocs.io/"
-  }
+  },
   {
     "name": "sqlalchemy",
     "description": "sqlalchemy is a Python SQL toolkit and Object-Relational Mapping (ORM) library. It provides a SQL expression language and ORM system, allowing Python developers to interact with databases using high-level Python objects.",
@@ -1728,7 +1699,7 @@
     ],
     "installation": "pip install sqlalchemy",
     "documentation": "https://docs.sqlalchemy.org/"
-  }
+  },
   {
     "name": "tqdm",
     "description": "tqdm is a Python library that provides a fast, extensible progress bar for loops and iterables. It enhances the user experience by displaying progress indicators, estimated time remaining, and throughput information during iterative processes.",
@@ -1749,7 +1720,7 @@
     ],
     "installation": "pip install tqdm",
     "documentation": "https://github.com/tqdm/tqdm"
-  }
+  },
   {
     "name": "tomli",
     "description": "tomli is a Python library for parsing TOML (Tom's Obvious, Minimal Language) configuration files. It provides a fast and efficient parser and serializer for TOML data, allowing Python applications to read and write TOML files with ease.",
@@ -1770,7 +1741,7 @@
     ],
     "installation": "pip install tomli",
     "documentation": "https://github.com/avakar/tomli"
-  }
+  },
   {
     "name": "tomlkit",
     "description": "tomlkit is a Python library for working with TOML (Tom's Obvious, Minimal Language) data structures. It provides utilities for parsing TOML strings, modifying TOML documents, and serializing Python objects to TOML format.",
@@ -1791,7 +1762,7 @@
     ],
     "installation": "pip install tomlkit",
     "documentation": "https://github.com/sdispater/tomlkit"
-  }
+  },
   {
     "name": "typing-extensions",
     "description": "typing-extensions is a Python package that provides backported and experimental type hints from the typing module for Python versions prior to Python 3.9. It extends the capabilities of the typing module, allowing Python developers to use newer type hints in older Python versions.",
@@ -1812,7 +1783,7 @@
     ],
     "installation": "pip install typing-extensions",
     "documentation": "https://github.com/python/typing"
-  }
+  },
   {
     "name": "urllib3",
     "description": "urllib3 is a Python library for making HTTP requests. It provides a powerful, user-friendly interface for handling HTTP connections, managing connection pooling, and handling retries and timeouts.",
@@ -1833,7 +1804,7 @@
     ],
     "installation": "pip install urllib3",
     "documentation": "https://urllib3.readthedocs.io/"
-  }
+  },
   {
     "name": "virtualenv",
     "description": "virtualenv is a tool for creating isolated Python environments. It allows you to create separate environments with their own Python binaries, packages, and dependencies, independent of the system-wide Python installation.",
@@ -1854,7 +1825,7 @@
     ],
     "installation": "pip install virtualenv",
     "documentation": "https://virtualenv.pypa.io/"
-  }
+  },
     
   {
     "name": "websocket-client",
@@ -1876,7 +1847,7 @@
     ],
     "installation": "pip install websocket-client",
     "documentation": "https://websocket-client.readthedocs.io/"
-  }
+  },
   {
     "name": "werkzeug",
     "description": "werkzeug is a comprehensive WSGI (Web Server Gateway Interface) library for Python. It provides utilities and functions for building web applications, handling HTTP requests and responses, implementing routing, and more.",
@@ -1897,7 +1868,7 @@
     ],
     "installation": "pip install werkzeug",
     "documentation": "https://werkzeug.palletsprojects.com/"
-  }
+  },
     
   {
     "name": "wheel",
@@ -1919,7 +1890,7 @@
     ],
     "installation": "pip install wheel",
     "documentation": "https://wheel.readthedocs.io/"
-  }
+  },
 
   {
     "name": "wrapt",
@@ -1941,7 +1912,7 @@
     ],
     "installation": "pip install wrapt",
     "documentation": "https://wrapt.readthedocs.io/"
-  }
+  },
   {
     "name": "zipp",
     "description": "zipp is a Python library that provides utilities for working with ZIP archive files. It allows reading from and writing to ZIP archives, iterating over archive contents, and handling compression and decompression operations.",
@@ -1962,7 +1933,7 @@
     ],
     "installation": "pip install zipp",
     "documentation": "https://zipp.readthedocs.io/"
-  }
+  },
   
   {
     "name": "zipp",
@@ -1985,4 +1956,5 @@
     "installation": "pip install zipp",
     "documentation": "https://zipp.readthedocs.io/"
   }
+]
  
