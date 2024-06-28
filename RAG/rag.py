@@ -74,7 +74,7 @@ class Model():
 
 
 # In[18]:
-
+db_size = 190
 
 model = Model(model_name)
 # Populate vector database #
