@@ -1,4 +1,5 @@
 from flask import Flask,request
+
 from rag import *
 import json
 import requests
@@ -13,9 +14,15 @@ def index():
 
 @app.route('/api/get-packages' , methods = ['GET' , 'POST'])
 def get_packages():
+    results = []
     if(request.method == 'POST'):
         request_data = request.get_json()
-        return retrieve(request_data["description"], 10)
+        data = retrieve(request_data["description"], 10)
+
+        for name in data:
+            results.append(name["Name"])
+
+        return results
 
 
 
