@@ -184,6 +184,9 @@ if 'language' not in st.session_state:
     st.session_state.language = "Python"
 if 'messages' not in st.session_state:
     st.session_state.messages = []
+if 'response_generated' not in st.session_state:
+    st.session_state.response_generated = False
+
 
 # In the initial input section
 if not st.session_state.initial_input_submitted:
@@ -250,10 +253,11 @@ def generate_requirements_txt(specification, language, version):
     return f"# Generated for {language} {version}\n# Spec: {specification}\nnumpy==1.18.5\npandas==1.2.0"
 
 # Place this in the appropriate part of your Streamlit app where the button should appear
-if st.button("Generate and Download requirements.txt"):
-    specification = st.session_state.product_spec  # Assuming you store product spec in session_state
-    language = st.session_state.language
-    version = st.session_state.version
+if st.session_state.response_generated:
+    if st.button("Download requirements.txt"):
+        specification = st.session_state.product_spec
+        language = st.session_state.language
+        version = st.session_state.version
 
     requirements_content = generate_requirements_txt(specification, language, version)
     
