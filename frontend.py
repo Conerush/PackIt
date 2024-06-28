@@ -9,7 +9,11 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import CharacterTextSplitter
 
-from prompt_processing import response_generator, extract_tasks, create_embeddings_and_store, query_vectordb
+from prompt_processing import response_generator, extract_tasks, get_libraries
+language_versions = {
+    "Python": ["3.12", "3.11", "3.10", "3.9", "3.8", "3.7", "2.7"],
+    "JavaScript": ["ES2023", "ES2022", "ES2021", "ES2020", "ES2019", "ES2018", "ES6"],
+}
 
 # Set page config to wide layout
 st.set_page_config(layout="wide")
@@ -39,6 +43,12 @@ def set_bg_from_local(image_file):
         }}
         .stApp > div {{
             color: white;  # Set text color to white for better visibility
+        }}
+        .stChatMessage {{
+            background-color: rgba(0, 0, 0, 0.6);  # Opaque background for chat messages
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
         }}
         </style>
     """
@@ -90,26 +100,25 @@ if st.session_state.initial_input_submitted and 'product_spec' not in st.session
 # Display chat messages from history on app rerun
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
-        st.markdown(message["content"])
+        st.markdown(f'<div class="stChatMessage">{message["content"]}</div>', unsafe_allow_html=True)
 
 # If initial input has been submitted, show the chat interface
 if st.session_state.initial_input_submitted:
     # Display initial response
     if len(st.session_state.messages) == 0:
-        # todo -> not sure why this is here        
-        # initial_prompt = f"You are an AI assistant helping with software development. The user is working on a project with the following specification: '{st.session_state.product_spec}'. They are using {st.session_state.language} version {st.session_state.version}. Provide a helpful response to get started."
+        initial_prompt = f"You are an AI assistant helping with software development. The user is working on a project with the following specification: '{st.session_state.product_spec}'. They are using {st.session_state.language} version {st.session_state.version}. Provide a helpful response to get started."
         st.session_state.messages.append({"role": "system", "content": initial_prompt})
         with st.chat_message("assistant"):
-            response = st.write_stream(extract_tasks(st.session_state.previous_product_spec))
+            response = st.write(get_libraries(st.session_state.previous_product_spec, st.session_state.language, st.session_state.version))
         st.session_state.messages.append({"role": "assistant", "content": response})
 
     # Accept user input
     if prompt := st.chat_input("What else would you like to know?"):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
-            st.markdown(prompt)
+            st.markdown(f'<div class="stChatMessage">{prompt}</div>', unsafe_allow_html=True)
         
         with st.chat_message("assistant"):
-            response = st.write_stream(response_generator(st.session_state.messages))
+            response = st.write(response_generator(st.session_state.messages))
         
         st.session_state.messages.append({"role": "assistant", "content": response})
