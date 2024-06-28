@@ -1,0 +1,119 @@
+[
+    {
+      "name": "aiobotocore",
+      "description": "aiobotocore is a Python library that provides an asynchronous client for AWS services, built on top of the botocore library and the asyncio library in Python. It enables non-blocking access to AWS services.",
+      "compatibility": {
+        "Python 3.5": "Supported up to aiobotocore 1.2.1",
+        "Python 3.6 and above": "Supported by the latest aiobotocore versions"
+      },
+      "version_mapping": {
+        "aiobotocore 0.x": "Python 3.5-3.7",
+        "aiobotocore 1.0.x": "Python 3.6-3.8",
+        "aiobotocore 1.1.x": "Python 3.6-3.9",
+        "aiobotocore 1.2.x": "Python 3.6-3.9",
+        "aiobotocore 1.3.x": "Python 3.7-3.10",
+        "aiobotocore 2.x": "Python 3.7-3.10",
+        "aiobotocore 2.1.x": "Python 3.7-3.10"
+      },
+      "key_features": [
+        "Asynchronous AWS service clients",
+        "Non-blocking I/O operations using asyncio",
+        "Built on top of botocore, providing the same low-level service access",
+        "Supports a wide range of AWS services",
+        "Easily integrates with existing asyncio-based applications"
+      ],
+      "installation": "pip install aiobotocore",
+      "documentation": "https://aiobotocore.readthedocs.io/"
+    },
+  
+    {
+      "name": "aiohttp",
+      "description": "aiohttp is an asynchronous HTTP client/server framework for Python, providing web server and client functionalities built on top of the asyncio library.",
+      "compatibility": {
+        "Python 3.5": "Supported up to aiohttp 3.7.x",
+        "Python 3.6 and above": "Supported by the latest aiohttp versions"
+      },
+      "version_mapping": {
+        "aiohttp 3.6.x": "Python 3.5-3.8",
+        "aiohttp 3.7.x": "Python 3.6-3.9",
+        "aiohttp 3.8.x": "Python 3.6-3.10",
+        "aiohttp 3.9.x": "Python 3.7-3.10"
+      },
+      "key_features": [
+        "Asynchronous HTTP client and server",
+        "WebSockets support",
+        "Middleware and signal handling",
+        "Session handling and cookies",
+        "Supports both client and server WebSockets",
+        "Highly extensible and customizable"
+      ],
+      "installation": "pip install aiohttp",
+      "documentation": "https://docs.aiohttp.org/en/stable/"
+    },
+  
+    {
+      "name": "aiosignal",
+      "description": "aiosignal is a library designed for managing asynchronous signals in Python. It is used to dispatch and handle signals in an asynchronous environment, typically within asyncio-based applications.",
+      "compatibility": {
+        "Python 3.6 and above": "Supported by the latest aiosignal versions"
+      },
+      "version_mapping": {
+        "aiosignal 1.0.x": "Python 3.6-3.10",
+        "aiosignal 1.1.x": "Python 3.6-3.10",
+        "aiosignal 1.2.x": "Python 3.7-3.10"
+      },
+      "key_features": [
+        "Asynchronous signal handling",
+        "Integration with asyncio",
+        "Lightweight and easy to use",
+        "Designed to work with other asynchronous libraries"
+      ],
+      "installation": "pip install aiosignal",
+      "documentation": "https://aiosignal.readthedocs.io/"
+    },
+    
+    {
+      "name": "annotated-types",
+      "description": "annotated-types is a library for defining and using type annotations in Python. It provides additional tools and functionality for working with type annotations, making it easier to define, validate, and use annotated types.",
+      "compatibility": {
+        "Python 3.6 and above": "Supported by the latest annotated-types versions"
+      },
+      "version_mapping": {
+        "annotated-types 0.1.x": "Python 3.6-3.10",
+        "annotated-types 0.2.x": "Python 3.7-3.10"
+      },
+      "key_features": [
+        "Enhanced type annotations",
+        "Validation of annotated types",
+        "Tools for working with Python's type hints",
+        "Support for complex and nested type definitions"
+      ],
+      "installation": "pip install annotated-types",
+      "documentation": "https://annotated-types.readthedocs.io/"
+    },
+    
+    {
+      "name": "anyio",
+      "description": "anyio is an asynchronous networking and concurrency library that provides a unified API for working with various asynchronous I/O frameworks like asyncio and trio. It is designed to offer high-level primitives for writing concurrent and networked code.",
+      "compatibility": {
+        "Python 3.6 and above": "Supported by the latest anyio versions"
+      },
+      "version_mapping": {
+        "anyio 1.x": "Python 3.6-3.8",
+        "anyio 2.x": "Python 3.6-3.9",
+        "anyio 3.x": "Python 3.6-3.10",
+        "anyio 4.x": "Python 3.7-3.10"
+      },
+      "key_features": [
+        "Unified API for asyncio and trio",
+        "High-level concurrency primitives",
+        "Asynchronous networking capabilities",
+        "Task groups and cancellation scopes",
+        "Synchronization primitives like locks and events",
+        "Support for structured concurrency"
+      ],
+      "installation": "pip install anyio",
+      "documentation": "https://anyio.readthedocs.io/"
+    }
+]
+   
