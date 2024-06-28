@@ -1,0 +1,1486 @@
+{
+  "aiobotocore": {
+    "Python 2.7": "aiobotocore 1.0",
+    "Python 3.6": "aiobotocore 3.0",
+    "Python 3.7": "aiobotocore 3.0",
+    "Python 3.8": "aiobotocore 3.0",
+    "Python 3.9": "aiobotocore 3.0",
+    "Python 3.10": "aiobotocore 3.0"
+  },
+  "aiohttp": {
+    "Python 2.7": "aiohttp 1.0",
+    "Python 3.6": "aiohttp 3.0",
+    "Python 3.7": "aiohttp 3.0",
+    "Python 3.8": "aiohttp 3.0",
+    "Python 3.9": "aiohttp 3.0",
+    "Python 3.10": "aiohttp 3.0"
+  },
+  "aiosignal": {
+    "Python 2.7": "aiosignal 1.0",
+    "Python 3.6": "aiosignal 3.0",
+    "Python 3.7": "aiosignal 3.0",
+    "Python 3.8": "aiosignal 3.0",
+    "Python 3.9": "aiosignal 3.0",
+    "Python 3.10": "aiosignal 3.0"
+  },
+  "annotated-types": {
+    "Python 2.7": "annotated-types 1.0",
+    "Python 3.6": "annotated-types 3.0",
+    "Python 3.7": "annotated-types 3.0",
+    "Python 3.8": "annotated-types 3.0",
+    "Python 3.9": "annotated-types 3.0",
+    "Python 3.10": "annotated-types 3.0"
+  },
+  "anyio": {
+    "Python 2.7": "anyio 1.0",
+    "Python 3.6": "anyio 3.0",
+    "Python 3.7": "anyio 3.0",
+    "Python 3.8": "anyio 3.0",
+    "Python 3.9": "anyio 3.0",
+    "Python 3.10": "anyio 3.0"
+  },
+  "argcomplete": {
+    "Python 2.7": "argcomplete 1.0",
+    "Python 3.6": "argcomplete 3.0",
+    "Python 3.7": "argcomplete 3.0",
+    "Python 3.8": "argcomplete 3.0",
+    "Python 3.9": "argcomplete 3.0",
+    "Python 3.10": "argcomplete 3.0"
+  },
+  "arrow": {
+    "Python 2.7": "arrow 1.0",
+    "Python 3.6": "arrow 3.0",
+    "Python 3.7": "arrow 3.0",
+    "Python 3.8": "arrow 3.0",
+    "Python 3.9": "arrow 3.0",
+    "Python 3.10": "arrow 3.0"
+  },
+  "asnicrypto": {
+    "Python 2.7": "asnicrypto 1.0",
+    "Python 3.6": "asnicrypto 3.0",
+    "Python 3.7": "asnicrypto 3.0",
+    "Python 3.8": "asnicrypto 3.0",
+    "Python 3.9": "asnicrypto 3.0",
+    "Python 3.10": "asnicrypto 3.0"
+  },
+  "async-timeout": {
+    "Python 2.7": "async-timeout 1.0",
+    "Python 3.6": "async-timeout 3.0",
+    "Python 3.7": "async-timeout 3.0",
+    "Python 3.8": "async-timeout 3.0",
+    "Python 3.9": "async-timeout 3.0",
+    "Python 3.10": "async-timeout 3.0"
+  },
+  "awscli": {
+    "Python 2.7": "awscli 1.0",
+    "Python 3.6": "awscli 3.0",
+    "Python 3.7": "awscli 3.0",
+    "Python 3.8": "awscli 3.0",
+    "Python 3.9": "awscli 3.0",
+    "Python 3.10": "awscli 3.0"
+  },
+  "azure-core": {
+    "Python 2.7": "azure-core 1.0",
+    "Python 3.6": "azure-core 3.0",
+    "Python 3.7": "azure-core 3.0",
+    "Python 3.8": "azure-core 3.0",
+    "Python 3.9": "azure-core 3.0",
+    "Python 3.10": "azure-core 3.0"
+  },
+  "boto3": {
+    "Python 2.7": "boto3 1.0",
+    "Python 3.6": "boto3 3.0",
+    "Python 3.7": "boto3 3.0",
+    "Python 3.8": "boto3 3.0",
+    "Python 3.9": "boto3 3.0",
+    "Python 3.10": "boto3 3.0"
+  },
+  "botocore": {
+    "Python 2.7": "botocore 1.0",
+    "Python 3.6": "botocore 3.0",
+    "Python 3.7": "botocore 3.0",
+    "Python 3.8": "botocore 3.0",
+    "Python 3.9": "botocore 3.0",
+    "Python 3.10": "botocore 3.0"
+  },
+  "cachetools": {
+    "Python 2.7": "cachetools 1.0",
+    "Python 3.6": "cachetools 3.0",
+    "Python 3.7": "cachetools 3.0",
+    "Python 3.8": "cachetools 3.0",
+    "Python 3.9": "cachetools 3.0",
+    "Python 3.10": "cachetools 3.0"
+  },
+  "certifi": {
+    "Python 2.7": "certifi 1.0",
+    "Python 3.6": "certifi 3.0",
+    "Python 3.7": "certifi 3.0",
+    "Python 3.8": "certifi 3.0",
+    "Python 3.9": "certifi 3.0",
+    "Python 3.10": "certifi 3.0"
+  },
+  "effi": {
+    "Python 2.7": "effi 1.0",
+    "Python 3.6": "effi 3.0",
+    "Python 3.7": "effi 3.0",
+    "Python 3.8": "effi 3.0",
+    "Python 3.9": "effi 3.0",
+    "Python 3.10": "effi 3.0"
+  },
+  "charset-normalizer": {
+    "Python 2.7": "charset-normalizer 1.0",
+    "Python 3.6": "charset-normalizer 3.0",
+    "Python 3.7": "charset-normalizer 3.0",
+    "Python 3.8": "charset-normalizer 3.0",
+    "Python 3.9": "charset-normalizer 3.0",
+    "Python 3.10": "charset-normalizer 3.0"
+  },
+  "click": {
+    "Python 2.7": "click 1.0",
+    "Python 3.6": "click 3.0",
+    "Python 3.7": "click 3.0",
+    "Python 3.8": "click 3.0",
+    "Python 3.9": "click 3.0",
+    "Python 3.10": "click 3.0"
+  },
+  "colorama": {
+    "Python 2.7": "colorama 1.0",
+    "Python 3.6": "colorama 3.0",
+    "Python 3.7": "colorama 3.0",
+    "Python 3.8": "colorama 3.0",
+    "Python 3.9": "colorama 3.0",
+    "Python 3.10": "colorama 3.0"
+  },
+  "coverage": {
+    "Python 2.7": "coverage 1.0",
+    "Python 3.6": "coverage 3.0",
+    "Python 3.7": "coverage 3.0",
+    "Python 3.8": "coverage 3.0",
+    "Python 3.9": "coverage 3.0",
+    "Python 3.10": "coverage 3.0"
+  },
+  "cryptography": {
+    "Python 2.7": "cryptography 1.0",
+    "Python 3.6": "cryptography 3.0",
+    "Python 3.7": "cryptography 3.0",
+    "Python 3.8": "cryptography 3.0",
+    "Python 3.9": "cryptography 3.0",
+    "Python 3.10": "cryptography 3.0"
+  },
+  "decorator": {
+    "Python 2.7": "decorator 1.0",
+    "Python 3.6": "decorator 3.0",
+    "Python 3.7": "decorator 3.0",
+    "Python 3.8": "decorator 3.0",
+    "Python 3.9": "decorator 3.0",
+    "Python 3.10": "decorator 3.0"
+  },
+  "deprecated": {
+    "Python 2.7": "deprecated 1.0",
+    "Python 3.6": "deprecated 3.0",
+    "Python 3.7": "deprecated 3.0",
+    "Python 3.8": "deprecated 3.0",
+    "Python 3.9": "deprecated 3.0",
+    "Python 3.10": "deprecated 3.0"
+  },
+  "distlib": {
+    "Python 2.7": "distlib 1.0",
+    "Python 3.6": "distlib 3.0",
+    "Python 3.7": "distlib 3.0",
+    "Python 3.8": "distlib 3.0",
+    "Python 3.9": "distlib 3.0",
+    "Python 3.10": "distlib 3.0"
+  },
+  "docutils": {
+    "Python 2.7": "docutils 1.0",
+    "Python 3.6": "docutils 3.0",
+    "Python 3.7": "docutils 3.0",
+    "Python 3.8": "docutils 3.0",
+    "Python 3.9": "docutils 3.0",
+    "Python 3.10": "docutils 3.0"
+  },
+  "et-xmlfile": {
+    "Python 2.7": "et-xmlfile 1.0",
+    "Python 3.6": "et-xmlfile 3.0",
+    "Python 3.7": "et-xmlfile 3.0",
+    "Python 3.8": "et-xmlfile 3.0",
+    "Python 3.9": "et-xmlfile 3.0",
+    "Python 3.10": "et-xmlfile 3.0"
+  },
+  "exceptiongroup": {
+    "Python 2.7": "exceptiongroup 1.0",
+    "Python 3.6": "exceptiongroup 3.0",
+    "Python 3.7": "exceptiongroup 3.0",
+    "Python 3.8": "exceptiongroup 3.0",
+    "Python 3.9": "exceptiongroup 3.0",
+    "Python 3.10": "exceptiongroup 3.0"
+  },
+  "frozenlist": {
+    "Python 2.7": "frozenlist 1.0",
+    "Python 3.6": "frozenlist 3.0",
+    "Python 3.7": "frozenlist 3.0",
+    "Python 3.8": "frozenlist 3.0",
+    "Python 3.9": "frozenlist 3.0",
+    "Python 3.10": "frozenlist 3.0"
+  },
+  "filelock": {
+    "Python 2.7": "filelock 1.0",
+    "Python 3.6": "filelock 3.0",
+    "Python 3.7": "filelock 3.0",
+    "Python 3.8": "filelock 3.0",
+    "Python 3.9": "filelock 3.0",
+    "Python 3.10": "filelock 3.0"
+  },
+  "fsspec": {
+    "Python 2.7": "fsspec 1.0",
+    "Python 3.6": "fsspec 3.0",
+    "Python 3.7": "fsspec 3.0",
+    "Python 3.8": "fsspec 3.0",
+    "Python 3.9": "fsspec 3.0",
+    "Python 3.10": "fsspec 3.0"
+  },
+  "grpcio": {
+    "Python 2.7": "grpcio 1.0",
+    "Python 3.6": "grpcio 3.0",
+    "Python 3.7": "grpcio 3.0",
+    "Python 3.8": "grpcio 3.0",
+    "Python 3.9": "grpcio 3.0",
+    "Python 3.10": "grpcio 3.0"
+  },
+  "grpcio-status": {
+    "Python 2.7": "grpcio-status 1.0",
+    "Python 3.6": "grpcio-status 3.0",
+    "Python 3.7": "grpcio-status 3.0",
+    "Python 3.8": "grpcio-status 3.0",
+    "Python 3.9": "grpcio-status 3.0",
+    "Python 3.10": "grpcio-status 3.0"
+  },
+  "greenlet": {
+    "Python 2.7": "greenlet 1.0",
+    "Python 3.6": "greenlet 3.0",
+    "Python 3.7": "greenlet 3.0",
+    "Python 3.8": "greenlet 3.0",
+    "Python 3.9": "greenlet 3.0",
+    "Python 3.10": "greenlet 3.0"
+  },
+  "google-api-core": {
+    "Python 2.7": "google-api-core 1.0",
+    "Python 3.6": "google-api-core 3.0",
+    "Python 3.7": "google-api-core 3.0",
+    "Python 3.8": "google-api-core 3.0",
+    "Python 3.9": "google-api-core 3.0",
+    "Python 3.10": "google-api-core 3.0"
+  },
+  "google-auth": {
+    "Python 2.7": "google-auth 1.0",
+    "Python 3.6": "google-auth 3.0",
+    "Python 3.7": "google-auth 3.0",
+    "Python 3.8": "google-auth 3.0",
+    "Python 3.9": "google-auth 3.0",
+    "Python 3.10": "google-auth 3.0"
+  },
+  "google-cloud-storage": {
+    "Python 2.7": "google-cloud-storage 1.0",
+    "Python 3.6": "google-cloud-storage 3.0",
+    "Python 3.7": "google-cloud-storage 3.0",
+    "Python 3.8": "google-cloud-storage 3.0",
+    "Python 3.9": "google-cloud-storage 3.0",
+    "Python 3.10": "google-cloud-storage 3.0"
+  },
+  "googleapis-common-protos": {
+    "Python 2.7": "googleapis-common-protos 1.0",
+    "Python 3.6": "googleapis-common-protos 3.0",
+    "Python 3.7": "googleapis-common-protos 3.0",
+    "Python 3.8": "googleapis-common-protos 3.0",
+    "Python 3.9": "googleapis-common-protos 3.0",
+    "Python 3.10": "googleapis-common-protos 3.0"
+  },
+  "idna": {
+    "Python 2.7": "idna 1.0",
+    "Python 3.6": "idna 3.0",
+    "Python 3.7": "idna 3.0",
+    "Python 3.8": "idna 3.0",
+    "Python 3.9": "idna 3.0",
+    "Python 3.10": "idna 3.0"
+  },
+  "importlib-metadata": {
+    "Python 2.7": "importlib-metadata 1.0",
+    "Python 3.6": "importlib-metadata 3.0",
+    "Python 3.7": "importlib-metadata 3.0",
+    "Python 3.8": "importlib-metadata 3.0",
+    "Python 3.9": "importlib-metadata 3.0",
+    "Python 3.10": "importlib-metadata 3.0"
+  },
+  "importlib-resources": {
+    "Python 2.7": "importlib-resources 1.0",
+    "Python 3.6": "importlib-resources 3.0",
+    "Python 3.7": "importlib-resources 3.0",
+    "Python 3.8": "importlib-resources 3.0",
+    "Python 3.9": "importlib-resources 3.0",
+    "Python 3.10": "importlib-resources 3.0"
+  },
+  "iniconfig": {
+    "Python 2.7": "iniconfig 1.0",
+    "Python 3.6": "iniconfig 3.0",
+    "Python 3.7": "iniconfig 3.0",
+    "Python 3.8": "iniconfig 3.0",
+    "Python 3.9": "iniconfig 3.0",
+    "Python 3.10": "iniconfig 3.0"
+  },
+  "isodate": {
+    "Python 2.7": "isodate 1.0",
+    "Python 3.6": "isodate 3.0",
+    "Python 3.7": "isodate 3.0",
+    "Python 3.8": "isodate 3.0",
+    "Python 3.9": "isodate 3.0",
+    "Python 3.10": "isodate 3.0"
+  },
+  "jinja2": {
+    "Python 2.7": "jinja2 1.0",
+    "Python 3.6": "jinja2 3.0",
+    "Python 3.7": "jinja2 3.0",
+    "Python 3.8": "jinja2 3.0",
+    "Python 3.9": "jinja2 3.0",
+    "Python 3.10": "jinja2 3.0"
+  },
+  "jmespath": {
+    "Python 2.7": "jmespath 1.0",
+    "Python 3.6": "jmespath 3.0",
+    "Python 3.7": "jmespath 3.0",
+    "Python 3.8": "jmespath 3.0",
+    "Python 3.9": "jmespath 3.0",
+    "Python 3.10": "jmespath 3.0"
+  },
+  "jsonschema": {
+    "Python 2.7": "jsonschema 1.0",
+    "Python 3.6": "jsonschema 3.0",
+    "Python 3.7": "jsonschema 3.0",
+    "Python 3.8": "jsonschema 3.0",
+    "Python 3.9": "jsonschema 3.0",
+    "Python 3.10": "jsonschema 3.0"
+  },
+  "lmI": {
+    "Python 2.7": "lmI 1.0",
+    "Python 3.6": "lmI 3.0",
+    "Python 3.7": "lmI 3.0",
+    "Python 3.8": "lmI 3.0",
+    "Python 3.9": "lmI 3.0",
+    "Python 3.10": "lmI 3.0"
+  },
+  "markupsafe": {
+    "Python 2.7": "markupsafe 1.0",
+    "Python 3.6": "markupsafe 3.0",
+    "Python 3.7": "markupsafe 3.0",
+    "Python 3.8": "markupsafe 3.0",
+    "Python 3.9": "markupsafe 3.0",
+    "Python 3.10": "markupsafe 3.0"
+  },
+  "more-itertools": {
+    "Python 2.7": "more-itertools 1.0",
+    "Python 3.6": "more-itertools 3.0",
+    "Python 3.7": "more-itertools 3.0",
+    "Python 3.8": "more-itertools 3.0",
+    "Python 3.9": "more-itertools 3.0",
+    "Python 3.10": "more-itertools 3.0"
+  },
+  "multidict": {
+    "Python 2.7": "multidict 1.0",
+    "Python 3.6": "multidict 3.0",
+    "Python 3.7": "multidict 3.0",
+    "Python 3.8": "multidict 3.0",
+    "Python 3.9": "multidict 3.0",
+    "Python 3.10": "multidict 3.0"
+  },
+  "numpy": {
+    "Python 2.7": "numpy 1.0",
+    "Python 3.6": "numpy 3.0",
+    "Python 3.7": "numpy 3.0",
+    "Python 3.8": "numpy 3.0",
+    "Python 3.9": "numpy 3.0",
+    "Python 3.10": "numpy 3.0"
+  },
+  "outhlib": {
+    "Python 2.7": "outhlib 1.0",
+    "Python 3.6": "outhlib 3.0",
+    "Python 3.7": "outhlib 3.0",
+    "Python 3.8": "outhlib 3.0",
+    "Python 3.9": "outhlib 3.0",
+    "Python 3.10": "outhlib 3.0"
+  },
+  "openpyxl": {
+    "Python 2.7": "openpyxl 1.0",
+    "Python 3.6": "openpyxl 3.0",
+    "Python 3.7": "openpyxl 3.0",
+    "Python 3.8": "openpyxl 3.0",
+    "Python 3.9": "openpyxl 3.0",
+    "Python 3.10": "openpyxl 3.0"
+  },
+  "pandas": {
+    "Python 2.7": "pandas 1.0",
+    "Python 3.6": "pandas 3.0",
+    "Python 3.7": "pandas 3.0",
+    "Python 3.8": "pandas 3.0",
+    "Python 3.9": "pandas 3.0",
+    "Python 3.10": "pandas 3.0"
+  },
+  "packaging": {
+    "Python 2.7": "packaging 1.0",
+    "Python 3.6": "packaging 3.0",
+    "Python 3.7": "packaging 3.0",
+    "Python 3.8": "packaging 3.0",
+    "Python 3.9": "packaging 3.0",
+    "Python 3.10": "packaging 3.0"
+  },
+  "platformdirs": {
+    "Python 2.7": "platformdirs 1.0",
+    "Python 3.6": "platformdirs 3.0",
+    "Python 3.7": "platformdirs 3.0",
+    "Python 3.8": "platformdirs 3.0",
+    "Python 3.9": "platformdirs 3.0",
+    "Python 3.10": "platformdirs 3.0"
+  },
+  "pluggy": {
+    "Python 2.7": "pluggy 1.0",
+    "Python 3.6": "pluggy 3.0",
+    "Python 3.7": "pluggy 3.0",
+    "Python 3.8": "pluggy 3.0",
+    "Python 3.9": "pluggy 3.0",
+    "Python 3.10": "pluggy 3.0"
+  },
+  "protobuf": {
+    "Python 2.7": "protobuf 1.0",
+    "Python 3.6": "protobuf 3.0",
+    "Python 3.7": "protobuf 3.0",
+    "Python 3.8": "protobuf 3.0",
+    "Python 3.9": "protobuf 3.0",
+    "Python 3.10": "protobuf 3.0"
+  },
+  "pyasn1": {
+    "Python 2.7": "pyasn1 1.0",
+    "Python 3.6": "pyasn1 3.0",
+    "Python 3.7": "pyasn1 3.0",
+    "Python 3.8": "pyasn1 3.0",
+    "Python 3.9": "pyasn1 3.0",
+    "Python 3.10": "pyasn1 3.0"
+  },
+  "pyasn1-modules": {
+    "Python 2.7": "pyasn1-modules 1.0",
+    "Python 3.6": "pyasn1-modules 3.0",
+    "Python 3.7": "pyasn1-modules 3.0",
+    "Python 3.8": "pyasn1-modules 3.0",
+    "Python 3.9": "pyasn1-modules 3.0",
+    "Python 3.10": "pyasn1-modules 3.0"
+  },
+  "pyarrow": {
+    "Python 2.7": "pyarrow 1.0",
+    "Python 3.6": "pyarrow 3.0",
+    "Python 3.7": "pyarrow 3.0",
+    "Python 3.8": "pyarrow 3.0",
+    "Python 3.9": "pyarrow 3.0",
+    "Python 3.10": "pyarrow 3.0"
+  },
+  "pycparser": {
+    "Python 2.7": "pycparser 1.0",
+    "Python 3.6": "pycparser 3.0",
+    "Python 3.7": "pycparser 3.0",
+    "Python 3.8": "pycparser 3.0",
+    "Python 3.9": "pycparser 3.0",
+    "Python 3.10": "pycparser 3.0"
+  },
+  "pydantic": {
+    "Python 2.7": "pydantic 1.0",
+    "Python 3.6": "pydantic 3.0",
+    "Python 3.7": "pydantic 3.0",
+    "Python 3.8": "pydantic 3.0",
+    "Python 3.9": "pydantic 3.0",
+    "Python 3.10": "pydantic 3.0"
+  },
+  "pygments": {
+    "Python 2.7": "pygments 1.0",
+    "Python 3.6": "pygments 3.0",
+    "Python 3.7": "pygments 3.0",
+    "Python 3.8": "pygments 3.0",
+    "Python 3.9": "pygments 3.0",
+    "Python 3.10": "pygments 3.0"
+  },
+  "pyjwt": {
+    "Python 2.7": "pyjwt 1.0",
+    "Python 3.6": "pyjwt 3.0",
+    "Python 3.7": "pyjwt 3.0",
+    "Python 3.8": "pyjwt 3.0",
+    "Python 3.9": "pyjwt 3.0",
+    "Python 3.10": "pyjwt 3.0"
+  },
+  "pyopenssl": {
+    "Python 2.7": "pyopenssl 1.0",
+    "Python 3.6": "pyopenssl 3.0",
+    "Python 3.7": "pyopenssl 3.0",
+    "Python 3.8": "pyopenssl 3.0",
+    "Python 3.9": "pyopenssl 3.0",
+    "Python 3.10": "pyopenssl 3.0"
+  },
+  "pyparsing": {
+    "Python 2.7": "pyparsing 1.0",
+    "Python 3.6": "pyparsing 3.0",
+    "Python 3.7": "pyparsing 3.0",
+    "Python 3.8": "pyparsing 3.0",
+    "Python 3.9": "pyparsing 3.0",
+    "Python 3.10": "pyparsing 3.0"
+  },
+  "pytest": {
+    "Python 2.7": "pytest 1.0",
+    "Python 3.6": "pytest 3.0",
+    "Python 3.7": "pytest 3.0",
+    "Python 3.8": "pytest 3.0",
+    "Python 3.9": "pytest 3.0",
+    "Python 3.10": "pytest 3.0"
+  },
+  "requests": {
+    "Python 2.7": "requests 1.0",
+    "Python 3.6": "requests 3.0",
+    "Python 3.7": "requests 3.0",
+    "Python 3.8": "requests 3.0",
+    "Python 3.9": "requests 3.0",
+    "Python 3.10": "requests 3.0"
+  },
+  "requests-oauthlib": {
+    "Python 2.7": "requests-oauthlib 1.0",
+    "Python 3.6": "requests-oauthlib 3.0",
+    "Python 3.7": "requests-oauthlib 3.0",
+    "Python 3.8": "requests-oauthlib 3.0",
+    "Python 3.9": "requests-oauthlib 3.0",
+    "Python 3.10": "requests-oauthlib 3.0"
+  },
+  "pytz": {
+    "pytz 2013.10 - 2023.10": "Python 2.7, 3.x",
+    "pytz 2023.11+": "Python 3.5 and above"
+  },
+  "requests-toolbelt": {
+    "Python 2.7": "requests-toolbelt 1.0",
+    "Python 3.6": "requests-toolbelt 3.0",
+    "Python 3.7": "requests-toolbelt 3.0",
+    "Python 3.8": "requests-toolbelt 3.0",
+    "Python 3.9": "requests-toolbelt 3.0",
+    "Python 3.10": "requests-toolbelt 3.0"
+  },
+  "rsa": {
+    "Python 2.7": "rsa 1.0",
+    "Python 3.6": "rsa 3.0",
+    "Python 3.7": "rsa 3.0",
+    "Python 3.8": "rsa 3.0",
+    "Python 3.9": "rsa 3.0",
+    "Python 3.10": "rsa 3.0"
+  },
+  "s3fs": {
+    "Python 2.7": "s3fs 1.0",
+    "Python 3.6": "s3fs 3.0",
+    "Python 3.7": "s3fs 3.0",
+    "Python 3.8": "s3fs 3.0",
+    "Python 3.9": "s3fs 3.0",
+    "Python 3.10": "s3fs 3.0"
+  },
+  "s3transfer": {
+    "Python 2.7": "s3transfer 1.0",
+    "Python 3.6": "s3transfer 3.0",
+    "Python 3.7": "s3transfer 3.0",
+    "Python 3.8": "s3transfer 3.0",
+    "Python 3.9": "s3transfer 3.0",
+    "Python 3.10": "s3transfer 3.0"
+  },
+  "scipy": {
+    "Python 2.7": "scipy 1.0",
+    "Python 3.6": "scipy 3.0",
+    "Python 3.7": "scipy 3.0",
+    "Python 3.8": "scipy 3.0",
+    "Python 3.9": "scipy 3.0",
+    "Python 3.10": "scipy 3.0"
+  },
+  "six": {
+    "Python 2.7": "six 1.0",
+    "Python 3.6": "six 3.0",
+    "Python 3.7": "six 3.0",
+    "Python 3.8": "six 3.0",
+    "Python 3.9": "six 3.0",
+    "Python 3.10": "six 3.0"
+  },
+  "soupsieve": {
+    "Python 2.7": "soupsieve 1.0",
+    "Python 3.6": "soupsieve 3.0",
+    "Python 3.7": "soupsieve 3.0",
+    "Python 3.8": "soupsieve 3.0",
+    "Python 3.9": "soupsieve 3.0",
+    "Python 3.10": "soupsieve 3.0"
+  },
+  "sqlalchemy": {
+    "Python 2.7": "sqlalchemy 1.0",
+    "Python 3.6": "sqlalchemy 3.0",
+    "Python 3.7": "sqlalchemy 3.0",
+    "Python 3.8": "sqlalchemy 3.0",
+    "Python 3.9": "sqlalchemy 3.0",
+    "Python 3.10": "sqlalchemy 3.0"
+  },
+  "tqdm": {
+    "Python 2.7": "tqdm 1.0",
+    "Python 3.6": "tqdm 3.0",
+    "Python 3.7": "tqdm 3.0",
+    "Python 3.8": "tqdm 3.0",
+    "Python 3.9": "tqdm 3.0",
+    "Python 3.10": "tqdm 3.0"
+  },
+  "tomli": {
+    "Python 2.7": "tomli 1.0",
+    "Python 3.6": "tomli 3.0",
+    "Python 3.7": "tomli 3.0",
+    "Python 3.8": "tomli 3.0",
+    "Python 3.9": "tomli 3.0",
+    "Python 3.10": "tomli 3.0"
+  },
+  "tomlkit": {
+    "Python 2.7": "tomlkit 1.0",
+    "Python 3.6": "tomlkit 3.0",
+    "Python 3.7": "tomlkit 3.0",
+    "Python 3.8": "tomlkit 3.0",
+    "Python 3.9": "tomlkit 3.0",
+    "Python 3.10": "tomlkit 3.0"
+  },
+  "typing-extensions": {
+    "Python 2.7": "typing-extensions 1.0",
+    "Python 3.6": "typing-extensions 3.0",
+    "Python 3.7": "typing-extensions 3.0",
+    "Python 3.8": "typing-extensions 3.0",
+    "Python 3.9": "typing-extensions 3.0",
+    "Python 3.10": "typing-extensions 3.0"
+  },
+  "urllib3": {
+    "Python 2.7": "urllib3 1.0",
+    "Python 3.6": "urllib3 3.0",
+    "Python 3.7": "urllib3 3.0",
+    "Python 3.8": "urllib3 3.0",
+    "Python 3.9": "urllib3 3.0",
+    "Python 3.10": "urllib3 3.0"
+  },
+  "virtualenv": {
+    "Python 2.7": "virtualenv 1.0",
+    "Python 3.6": "virtualenv 3.0",
+    "Python 3.7": "virtualenv 3.0",
+    "Python 3.8": "virtualenv 3.0",
+    "Python 3.9": "virtualenv 3.0",
+    "Python 3.10": "virtualenv 3.0"
+  },
+  "websocket-client": {
+    "Python 2.7": "websocket-client 1.0",
+    "Python 3.6": "websocket-client 3.0",
+    "Python 3.7": "websocket-client 3.0",
+    "Python 3.8": "websocket-client 3.0",
+    "Python 3.9": "websocket-client 3.0",
+    "Python 3.10": "websocket-client 3.0"
+  },
+  "werkzeug": {
+    "Python 2.7": "werkzeug 1.0",
+    "Python 3.6": "werkzeug 3.0",
+    "Python 3.7": "werkzeug 3.0",
+    "Python 3.8": "werkzeug 3.0",
+    "Python 3.9": "werkzeug 3.0",
+    "Python 3.10": "werkzeug 3.0"
+  },
+  "wheel": {
+    "Python 2.7": "wheel 1.0",
+    "Python 3.6": "wheel 3.0",
+    "Python 3.7": "wheel 3.0",
+    "Python 3.8": "wheel 3.0",
+    "Python 3.9": "wheel 3.0",
+    "Python 3.10": "wheel 3.0"
+  },
+  "wrapt": {
+    "Python 2.7": "wrapt 1.0",
+    "Python 3.6": "wrapt 3.0",
+    "Python 3.7": "wrapt 3.0",
+    "Python 3.8": "wrapt 3.0",
+    "Python 3.9": "wrapt 3.0",
+    "Python 3.10": "wrapt 3.0"
+  },
+  "zipp": {
+    "Python 2.7": "zipp 1.0",
+    "Python 3.6": "zipp 3.0",
+    "Python 3.7": "zipp 3.0",
+    "Python 3.8": "zipp 3.0",
+    "Python 3.9": "zipp 3.0",
+    "Python 3.10": "zipp 3.0"
+  },
+  "msgpack": {
+    "Python 2.7": "msgpack 1.0",
+    "Python 3.6": "msgpack 3.0",
+    "Python 3.7": "msgpack 3.0",
+    "Python 3.8": "msgpack 3.0",
+    "Python 3.9": "msgpack 3.0",
+    "Python 3.10": "msgpack 3.0"
+  },
+  "sniffio": {
+    "Python 2.7": "sniffio 1.0",
+    "Python 3.6": "sniffio 3.0",
+    "Python 3.7": "sniffio 3.0",
+    "Python 3.8": "sniffio 3.0",
+    "Python 3.9": "sniffio 3.0",
+    "Python 3.10": "sniffio 3.0"
+  },
+  "pexpect": {
+    "Python 2.7": "pexpect 1.0",
+    "Python 3.6": "pexpect 3.0",
+    "Python 3.7": "pexpect 3.0",
+    "Python 3.8": "pexpect 3.0",
+    "Python 3.9": "pexpect 3.0",
+    "Python 3.10": "pexpect 3.0"
+  },
+  "ptyprocess": {
+    "Python 2.7": "ptyprocess 1.0",
+    "Python 3.6": "ptyprocess 3.0",
+    "Python 3.7": "ptyprocess 3.0",
+    "Python 3.8": "ptyprocess 3.0",
+    "Python 3.9": "ptyprocess 3.0",
+    "Python 3.10": "ptyprocess 3.0"
+  },
+  "referencing": {
+    "Python 2.7": "referencing 1.0",
+    "Python 3.6": "referencing 3.0",
+    "Python 3.7": "referencing 3.0",
+    "Python 3.8": "referencing 3.0",
+    "Python 3.9": "referencing 3.0",
+    "Python 3.10": "referencing 3.0"
+  },
+  "scikit-learn": {
+    "Python 2.7": "scikit-learn 1.0",
+    "Python 3.6": "scikit-learn 3.0",
+    "Python 3.7": "scikit-learn 3.0",
+    "Python 3.8": "scikit-learn 3.0",
+    "Python 3.9": "scikit-learn 3.0",
+    "Python 3.10": "scikit-learn 3.0"
+  },
+  "rpds-py": {
+    "Python 2.7": "rpds-py 1.0",
+    "Python 3.6": "rpds-py 3.0",
+    "Python 3.7": "rpds-py 3.0",
+    "Python 3.8": "rpds-py 3.0",
+    "Python 3.9": "rpds-py 3.0",
+    "Python 3.10": "rpds-py 3.0"
+  },
+  "google-cloud-core": {
+    "Python 2.7": "google-cloud-core 1.0",
+    "Python 3.6": "google-cloud-core 3.0",
+    "Python 3.7": "google-cloud-core 3.0",
+    "Python 3.8": "google-cloud-core 3.0",
+    "Python 3.9": "google-cloud-core 3.0",
+    "Python 3.10": "google-cloud-core 3.0"
+  },
+  "flask": {
+    "Python 2.7": "flask 1.0",
+    "Python 3.6": "flask 3.0",
+    "Python 3.7": "flask 3.0",
+    "Python 3.8": "flask 3.0",
+    "Python 3.9": "flask 3.0",
+    "Python 3.10": "flask 3.0"
+  },
+  "chardet": {
+    "Python 2.7": "chardet 1.0",
+    "Python 3.6": "chardet 3.0",
+    "Python 3.7": "chardet 3.0",
+    "Python 3.8": "chardet 3.0",
+    "Python 3.9": "chardet 3.0",
+    "Python 3.10": "chardet 3.0"
+  },
+  "backoff": {
+    "Python 2.7": "backoff 1.0",
+    "Python 3.6": "backoff 3.0",
+    "Python 3.7": "backoff 3.0",
+    "Python 3.8": "backoff 3.0",
+    "Python 3.9": "backoff 3.0",
+    "Python 3.10": "backoff 3.0"
+  },
+  "psycopg2-binary": {
+    "Python 2.7": "psycopg2-binary 1.0",
+    "Python 3.6": "psycopg2-binary 3.0",
+    "Python 3.7": "psycopg2-binary 3.0",
+    "Python 3.8": "psycopg2-binary 3.0",
+    "Python 3.9": "psycopg2-binary 3.0",
+    "Python 3.10": "psycopg2-binary 3.0"
+  },
+  "jsonschema-specifications": {
+    "Python 2.7": "jsonschema-specifications 1.0",
+    "Python 3.6": "jsonschema-specifications 3.0",
+    "Python 3.7": "jsonschema-specifications 3.0",
+    "Python 3.8": "jsonschema-specifications 3.0",
+    "Python 3.9": "jsonschema-specifications 3.0",
+    "Python 3.10": "jsonschema-specifications 3.0"
+  },
+  "google-resumable-media": {
+    "Python 2.7": "google-resumable-media 1.0",
+    "Python 3.6": "google-resumable-media 3.0",
+    "Python 3.7": "google-resumable-media 3.0",
+    "Python 3.8": "google-resumable-media 3.0",
+    "Python 3.9": "google-resumable-media 3.0",
+    "Python 3.10": "google-resumable-media 3.0"
+  },
+  "matplotlib": {
+    "Python 2.7": "matplotlib 1.0",
+    "Python 3.6": "matplotlib 3.0",
+    "Python 3.7": "matplotlib 3.0",
+    "Python 3.8": "matplotlib 3.0",
+    "Python 3.9": "matplotlib 3.0",
+    "Python 3.10": "matplotlib 3.0"
+  },
+  "python-dotenv": {
+    "Python 2.7": "python-dotenv 1.0",
+    "Python 3.6": "python-dotenv 3.0",
+    "Python 3.7": "python-dotenv 3.0",
+    "Python 3.8": "python-dotenv 3.0",
+    "Python 3.9": "python-dotenv 3.0",
+    "Python 3.10": "python-dotenv 3.0"
+  },
+  "tenacity": {
+    "Python 2.7": "tenacity 1.0",
+    "Python 3.6": "tenacity 3.0",
+    "Python 3.7": "tenacity 3.0",
+    "Python 3.8": "tenacity 3.0",
+    "Python 3.9": "tenacity 3.0",
+    "Python 3.10": "tenacity 3.0"
+  },
+  "msal": {
+    "Python 2.7": "msal 1.0",
+    "Python 3.6": "msal 3.0",
+    "Python 3.7": "msal 3.0",
+    "Python 3.8": "msal 3.0",
+    "Python 3.9": "msal 3.0",
+    "Python 3.10": "msal 3.0"
+  },
+  "poetry-plugin-export": {
+    "Python 2.7": "poetry-plugin-export 1.0",
+    "Python 3.6": "poetry-plugin-export 3.0",
+    "Python 3.7": "poetry-plugin-export 3.0",
+    "Python 3.8": "poetry-plugin-export 3.0",
+    "Python 3.9": "poetry-plugin-export 3.0",
+    "Python 3.10": "poetry-plugin-export 3.0"
+  },
+  "py": {
+    "Python 2.7": "py 1.0",
+    "Python 3.6": "py 3.0",
+    "Python 3.7": "py 3.0",
+    "Python 3.8": "py 3.0",
+    "Python 3.9": "py 3.0",
+    "Python 3.10": "py 3.0"
+  },
+  "tabulate": {
+    "Python 2.7": "tabulate 1.0",
+    "Python 3.6": "tabulate 3.0",
+    "Python 3.7": "tabulate 3.0",
+    "Python 3.8": "tabulate 3.0",
+    "Python 3.9": "tabulate 3.0",
+    "Python 3.10": "tabulate 3.0"
+  },
+  "bcrypt": {
+    "Python 2.7": "bcrypt 1.0",
+    "Python 3.6": "bcrypt 3.0",
+    "Python 3.7": "bcrypt 3.0",
+    "Python 3.8": "bcrypt 3.0",
+    "Python 3.9": "bcrypt 3.0",
+    "Python 3.10": "bcrypt 3.0"
+  },
+  "httpcore": {
+    "Python 2.7": "httpcore 1.0",
+    "Python 3.6": "httpcore 3.0",
+    "Python 3.7": "httpcore 3.0",
+    "Python 3.8": "httpcore 3.0",
+    "Python 3.9": "httpcore 3.0",
+    "Python 3.10": "httpcore 3.0"
+  },
+  "wowidth": {
+    "Python 2.7": "wowidth 1.0",
+    "Python 3.6": "wowidth 3.0",
+    "Python 3.7": "wowidth 3.0",
+    "Python 3.8": "wowidth 3.0",
+    "Python 3.9": "wowidth 3.0",
+    "Python 3.10": "wowidth 3.0"
+  },
+  "httpx": {
+    "Python 2.7": "httpx 1.0",
+    "Python 3.6": "httpx 3.0",
+    "Python 3.7": "httpx 3.0",
+    "Python 3.8": "httpx 3.0",
+    "Python 3.9": "httpx 3.0",
+    "Python 3.10": "httpx 3.0"
+  },
+  "poetry-core": {
+    "Python 2.7": "poetry-core 1.0",
+    "Python 3.6": "poetry-core 3.0",
+    "Python 3.7": "poetry-core 3.0",
+    "Python 3.8": "poetry-core 3.0",
+    "Python 3.9": "poetry-core 3.0",
+    "Python 3.10": "poetry-core 3.0"
+  },
+  "rich": {
+    "Python 2.7": "rich 1.0",
+    "Python 3.6": "rich 3.0",
+    "Python 3.7": "rich 3.0",
+    "Python 3.8": "rich 3.0",
+    "Python 3.9": "rich 3.0",
+    "Python 3.10": "rich 3.0"
+  },
+  "pathspec": {
+    "Python 2.7": "pathspec 1.0",
+    "Python 3.6": "pathspec 3.0",
+    "Python 3.7": "pathspec 3.0",
+    "Python 3.8": "pathspec 3.0",
+    "Python 3.9": "pathspec 3.0",
+    "Python 3.10": "pathspec 3.0"
+  },
+  "mypy-extensions": {
+    "Python 2.7": "mypy-extensions 1.0",
+    "Python 3.6": "mypy-extensions 3.0",
+    "Python 3.7": "mypy-extensions 3.0",
+    "Python 3.8": "mypy-extensions 3.0",
+    "Python 3.9": "mypy-extensions 3.0",
+    "Python 3.10": "mypy-extensions 3.0"
+  },
+  "regex": {
+    "Python 2.7": "regex 1.0",
+    "Python 3.6": "regex 3.0",
+    "Python 3.7": "regex 3.0",
+    "Python 3.8": "regex 3.0",
+    "Python 3.9": "regex 3.0",
+    "Python 3.10": "regex 3.0"
+  },
+  "dill": {
+    "Python 2.7": "dill 1.0",
+    "Python 3.6": "dill 3.0",
+    "Python 3.7": "dill 3.0",
+    "Python 3.8": "dill 3.0",
+    "Python 3.9": "dill 3.0",
+    "Python 3.10": "dill 3.0"
+  },
+  "paramiko": {
+    "Python 2.7": "paramiko 1.0",
+    "Python 3.6": "paramiko 3.0",
+    "Python 3.7": "paramiko 3.0",
+    "Python 3.8": "paramiko 3.0",
+    "Python 3.9": "paramiko 3.0",
+    "Python 3.10": "paramiko 3.0"
+  },
+  "gitpython": {
+    "Python 2.7": "gitpython 1.0",
+    "Python 3.6": "gitpython 3.0",
+    "Python 3.7": "gitpython 3.0",
+    "Python 3.8": "gitpython 3.0",
+    "Python 3.9": "gitpython 3.0",
+    "Python 3.10": "gitpython 3.0"
+  },
+  "threadpoolctl": {
+    "Python 2.7": "threadpoolctl 1.0",
+    "Python 3.6": "threadpoolctl 3.0",
+    "Python 3.7": "threadpoolctl 3.0",
+    "Python 3.8": "threadpoolctl 3.0",
+    "Python 3.9": "threadpoolctl 3.0",
+    "Python 3.10": "threadpoolctl 3.0"
+  },
+  "google-auth-oauthlib": {
+    "Python 2.7": "google-auth-oauthlib 1.0",
+    "Python 3.6": "google-auth-oauthlib 3.0",
+    "Python 3.7": "google-auth-oauthlib 3.0",
+    "Python 3.8": "google-auth-oauthlib 3.0",
+    "Python 3.9": "google-auth-oauthlib 3.0",
+    "Python 3.10": "google-auth-oauthlib 3.0"
+  },
+  "itsdangerous": {
+    "Python 2.7": "itsdangerous 1.0",
+    "Python 3.6": "itsdangerous 3.0",
+    "Python 3.7": "itsdangerous 3.0",
+    "Python 3.8": "itsdangerous 3.0",
+    "Python 3.9": "itsdangerous 3.0",
+    "Python 3.10": "itsdangerous 3.0"
+  },
+  "snowflake-connector-python": {
+    "Python 2.7": "snowflake-connector-python 1.0",
+    "Python 3.6": "snowflake-connector-python 3.0",
+    "Python 3.7": "snowflake-connector-python 3.0",
+    "Python 3.8": "snowflake-connector-python 3.0",
+    "Python 3.9": "snowflake-connector-python 3.0",
+    "Python 3.10": "snowflake-connector-python 3.0"
+  },
+  "kiwisolver": {
+    "Python 2.7": "kiwisolver 1.0",
+    "Python 3.6": "kiwisolver 3.0",
+    "Python 3.7": "kiwisolver 3.0",
+    "Python 3.8": "kiwisolver 3.0",
+    "Python 3.9": "kiwisolver 3.0",
+    "Python 3.10": "kiwisolver 3.0"
+  },
+  "ruamel.yaml": {
+    "Python 2.7": "ruamel.yaml 1.0",
+    "Python 3.6": "ruamel.yaml 3.0",
+    "Python 3.7": "ruamel.yaml 3.0",
+    "Python 3.8": "ruamel.yaml 3.0",
+    "Python 3.9": "ruamel.yaml 3.0",
+    "Python 3.10": "ruamel.yaml 3.0"
+  },
+  "sortedcontainers": {
+    "Python 2.7": "sortedcontainers 1.0",
+    "Python 3.6": "sortedcontainers 3.0",
+    "Python 3.7": "sortedcontainers 3.0",
+    "Python 3.8": "sortedcontainers 3.0",
+    "Python 3.9": "sortedcontainers 3.0",
+    "Python 3.10": "sortedcontainers 3.0"
+  },
+  "keyring": {
+    "Python 2.7": "keyring 1.0",
+    "Python 3.6": "keyring 3.0",
+    "Python 3.7": "keyring 3.0",
+    "Python 3.8": "keyring 3.0",
+    "Python 3.9": "keyring 3.0",
+    "Python 3.10": "keyring 3.0"
+  },
+  "cycler": {
+    "Python 2.7": "cycler 1.0",
+    "Python 3.6": "cycler 3.0",
+    "Python 3.7": "cycler 3.0",
+    "Python 3.8": "cycler 3.0",
+    "Python 3.9": "cycler 3.0",
+    "Python 3.10": "cycler 3.0"
+  },
+  "smmap": {
+    "Python 2.7": "smmap 1.0",
+    "Python 3.6": "smmap 3.0",
+    "Python 3.7": "smmap 3.0",
+    "Python 3.8": "smmap 3.0",
+    "Python 3.9": "smmap 3.0",
+    "Python 3.10": "smmap 3.0"
+  },
+  "google-crc32c": {
+    "Python 2.7": "google-crc32c 1.0",
+    "Python 3.6": "google-crc32c 3.0",
+    "Python 3.7": "google-crc32c 3.0",
+    "Python 3.8": "google-crc32c 3.0",
+    "Python 3.9": "google-crc32c 3.0",
+    "Python 3.10": "google-crc32c 3.0"
+  },
+  "shellingham": {
+    "Python 2.7": "shellingham 1.0",
+    "Python 3.6": "shellingham 3.0",
+    "Python 3.7": "shellingham 3.0",
+    "Python 3.8": "shellingham 3.0",
+    "Python 3.9": "shellingham 3.0",
+    "Python 3.10": "shellingham 3.0"
+  },
+  "joblib": {
+    "Python 2.7": "joblib 1.0",
+    "Python 3.6": "joblib 3.0",
+    "Python 3.7": "joblib 3.0",
+    "Python 3.8": "joblib 3.0",
+    "Python 3.9": "joblib 3.0",
+    "Python 3.10": "joblib 3.0"
+  },
+  "networkx": {
+    "Python 2.7": "networkx 1.0",
+    "Python 3.6": "networkx 3.0",
+    "Python 3.7": "networkx 3.0",
+    "Python 3.8": "networkx 3.0",
+    "Python 3.9": "networkx 3.0",
+    "Python 3.10": "networkx 3.0"
+  },
+  "gitdb": {
+    "Python 2.7": "gitdb 1.0",
+    "Python 3.6": "gitdb 3.0",
+    "Python 3.7": "gitdb 3.0",
+    "Python 3.8": "gitdb 3.0",
+    "Python 3.9": "gitdb 3.0",
+    "Python 3.10": "gitdb 3.0"
+  },
+  "markdown-it-py": {
+    "Python 2.7": "markdown-it-py 1.0",
+    "Python 3.6": "markdown-it-py 3.0",
+    "Python 3.7": "markdown-it-py 3.0",
+    "Python 3.8": "markdown-it-py 3.0",
+    "Python 3.9": "markdown-it-py 3.0",
+    "Python 3.10": "markdown-it-py 3.0"
+  },
+  "mdurl": {
+    "Python 2.7": "mdurl 1.0",
+    "Python 3.6": "mdurl 3.0",
+    "Python 3.7": "mdurl 3.0",
+    "Python 3.8": "mdurl 3.0",
+    "Python 3.9": "mdurl 3.0",
+    "Python 3.10": "mdurl 3.0"
+  },
+  "pymysql": {
+    "Python 2.7": "pymysql 1.0",
+    "Python 3.6": "pymysql 3.0",
+    "Python 3.7": "pymysql 3.0",
+    "Python 3.8": "pymysql 3.0",
+    "Python 3.9": "pymysql 3.0",
+    "Python 3.10": "pymysql 3.0"
+  },
+  "azure-storage-blob": {
+    "Python 2.7": "azure-storage-blob 1.0",
+    "Python 3.6": "azure-storage-blob 3.0",
+    "Python 3.7": "azure-storage-blob 3.0",
+    "Python 3.8": "azure-storage-blob 3.0",
+    "Python 3.9": "azure-storage-blob 3.0",
+    "Python 3.10": "azure-storage-blob 3.0"
+  },
+  "portalocker": {
+    "Python 2.7": "portalocker 1.0",
+    "Python 3.6": "portalocker 3.0",
+    "Python 3.7": "portalocker 3.0",
+    "Python 3.8": "portalocker 3.0",
+    "Python 3.9": "portalocker 3.0",
+    "Python 3.10": "portalocker 3.0"
+  },
+  "py4j": {
+    "Python 2.7": "py4j 1.0",
+    "Python 3.6": "py4j 3.0",
+    "Python 3.7": "py4j 3.0",
+    "Python 3.8": "py4j 3.0",
+    "Python 3.9": "py4j 3.0",
+    "Python 3.10": "py4j 3.0"
+  },
+  "unlluuls": {
+    "Python 2.7": "unlluuls 1.0",
+    "Python 3.6": "unlluuls 3.0",
+    "Python 3.7": "unlluuls 3.0",
+    "Python 3.8": "unlluuls 3.0",
+    "Python 3.9": "unlluuls 3.0",
+    "Python 3.10": "unlluuls 3.0"
+  },
+  "build": {
+    "Python 2.7": "build 1.0",
+    "Python 3.6": "build 3.0",
+    "Python 3.7": "build 3.0",
+    "Python 3.8": "build 3.0",
+    "Python 3.9": "build 3.0",
+    "Python 3.10": "build 3.0"
+  },
+  "sqlparse": {
+    "Python 2.7": "sqlparse 1.0",
+    "Python 3.6": "sqlparse 3.0",
+    "Python 3.7": "sqlparse 3.0",
+    "Python 3.8": "sqlparse 3.0",
+    "Python 3.9": "sqlparse 3.0",
+    "Python 3.10": "sqlparse 3.0"
+  },
+  "secrelsturage": {
+    "Python 2.7": "secrelsturage 1.0",
+    "Python 3.6": "secrelsturage 3.0",
+    "Python 3.7": "secrelsturage 3.0",
+    "Python 3.8": "secrelsturage 3.0",
+    "Python 3.9": "secrelsturage 3.0",
+    "Python 3.10": "secrelsturage 3.0"
+  },
+  "jaraco-classes": {
+    "Python 2.7": "jaraco-classes 1.0",
+    "Python 3.6": "jaraco-classes 3.0",
+    "Python 3.7": "jaraco-classes 3.0",
+    "Python 3.8": "jaraco-classes 3.0",
+    "Python 3.9": "jaraco-classes 3.0",
+    "Python 3.10": "jaraco-classes 3.0"
+  },
+  "jeepney": {
+    "Python 2.7": "jeepney 1.0",
+    "Python 3.6": "jeepney 3.0",
+    "Python 3.7": "jeepney 3.0",
+    "Python 3.8": "jeepney 3.0",
+    "Python 3.9": "jeepney 3.0",
+    "Python 3.10": "jeepney 3.0"
+  },
+  "google-api-python-client": {
+    "Python 2.7": "google-api-python-client 1.0",
+    "Python 3.6": "google-api-python-client 3.0",
+    "Python 3.7": "google-api-python-client 3.0",
+    "Python 3.8": "google-api-python-client 3.0",
+    "Python 3.9": "google-api-python-client 3.0",
+    "Python 3.10": "google-api-python-client 3.0"
+  },
+  "awswrangler": {
+    "Python 2.7": "awswrangler 1.0",
+    "Python 3.6": "awswrangler 3.0",
+    "Python 3.7": "awswrangler 3.0",
+    "Python 3.8": "awswrangler 3.0",
+    "Python 3.9": "awswrangler 3.0",
+    "Python 3.10": "awswrangler 3.0"
+  },
+  "fastisonschema": {
+    "Python 2.7": "fastisonschema 1.0",
+    "Python 3.6": "fastisonschema 3.0",
+    "Python 3.7": "fastisonschema 3.0",
+    "Python 3.8": "fastisonschema 3.0",
+    "Python 3.9": "fastisonschema 3.0",
+    "Python 3.10": "fastisonschema 3.0"
+  },
+  "grpcio-tools": {
+    "Python 2.7": "grpcio-tools 1.0",
+    "Python 3.6": "grpcio-tools 3.0",
+    "Python 3.7": "grpcio-tools 3.0",
+    "Python 3.8": "grpcio-tools 3.0",
+    "Python 3.9": "grpcio-tools 3.0",
+    "Python 3.10": "grpcio-tools 3.0"
+  },
+  "talocal": {
+    "Python 2.7": "talocal 1.0",
+    "Python 3.6": "talocal 3.0",
+    "Python 3.7": "talocal 3.0",
+    "Python 3.8": "talocal 3.0",
+    "Python 3.9": "talocal 3.0",
+    "Python 3.10": "talocal 3.0"
+  },
+  "marshmallow": {
+    "Python 2.7": "marshmallow 1.0",
+    "Python 3.6": "marshmallow 3.0",
+    "Python 3.7": "marshmallow 3.0",
+    "Python 3.8": "marshmallow 3.0",
+    "Python 3.9": "marshmallow 3.0",
+    "Python 3.10": "marshmallow 3.0"
+  },
+  "nest-asyncio": {
+    "Python 2.7": "nest-asyncio 1.0",
+    "Python 3.6": "nest-asyncio 3.0",
+    "Python 3.7": "nest-asyncio 3.0",
+    "Python 3.8": "nest-asyncio 3.0",
+    "Python 3.9": "nest-asyncio 3.0",
+    "Python 3.10": "nest-asyncio 3.0"
+  },
+  "msal-extensions": {
+    "Python 2.7": "msal-extensions 1.0",
+    "Python 3.6": "msal-extensions 3.0",
+    "Python 3.7": "msal-extensions 3.0",
+    "Python 3.8": "msal-extensions 3.0",
+    "Python 3.9": "msal-extensions 3.0",
+    "Python 3.10": "msal-extensions 3.0"
+  },
+  "pyproject-hooks": {
+    "Python 2.7": "pyproject-hooks 1.0",
+    "Python 3.6": "pyproject-hooks 3.0",
+    "Python 3.7": "pyproject-hooks 3.0",
+    "Python 3.8": "pyproject-hooks 3.0",
+    "Python 3.9": "pyproject-hooks 3.0",
+    "Python 3.10": "pyproject-hooks 3.0"
+  },
+  "google-cloud-bigquery": {
+    "Python 2.7": "google-cloud-bigquery 1.0",
+    "Python 3.6": "google-cloud-bigquery 3.0",
+    "Python 3.7": "google-cloud-bigquery 3.0",
+    "Python 3.8": "google-cloud-bigquery 3.0",
+    "Python 3.9": "google-cloud-bigquery 3.0",
+    "Python 3.10": "google-cloud-bigquery 3.0"
+  },
+  "pkginfo": {
+    "Python 2.7": "pkginfo 1.0",
+    "Python 3.6": "pkginfo 3.0",
+    "Python 3.7": "pkginfo 3.0",
+    "Python 3.8": "pkginfo 3.0",
+    "Python 3.9": "pkginfo 3.0",
+    "Python 3.10": "pkginfo 3.0"
+  },
+  "rapidfuzz": {
+    "Python 2.7": "rapidfuzz 1.0",
+    "Python 3.6": "rapidfuzz 3.0",
+    "Python 3.7": "rapidfuzz 3.0",
+    "Python 3.8": "rapidfuzz 3.0",
+    "Python 3.9": "rapidfuzz 3.0",
+    "Python 3.10": "rapidfuzz 3.0"
+  },
+  "typedload": {
+    "Python 2.7": "typedload 1.0",
+    "Python 3.6": "typedload 3.0",
+    "Python 3.7": "typedload 3.0",
+    "Python 3.8": "typedload 3.0",
+    "Python 3.9": "typedload 3.0",
+    "Python 3.10": "typedload 3.0"
+  },
+  "prompt-toolkit": {
+    "Python 2.7": "prompt-toolkit 1.0",
+    "Python 3.6": "prompt-toolkit 3.0",
+    "Python 3.7": "prompt-toolkit 3.0",
+    "Python 3.8": "prompt-toolkit 3.0",
+    "Python 3.9": "prompt-toolkit 3.0",
+    "Python 3.10": "prompt-toolkit 3.0"
+  },
+  "trove-classifiers": {
+    "Python 2.7": "trove-classifiers 1.0",
+    "Python 3.6": "trove-classifiers 3.0",
+    "Python 3.7": "trove-classifiers 3.0",
+    "Python 3.8": "trove-classifiers 3.0",
+    "Python 3.9": "trove-classifiers 3.0",
+    "Python 3.10": "trove-classifiers 3.0"
+  },
+  "pytest-cov": {
+    "Python 2.7": "pytest-cov 1.0",
+    "Python 3.6": "pytest-cov 3.0",
+    "Python 3.7": "pytest-cov 3.0",
+    "Python 3.8": "pytest-cov 3.0",
+    "Python 3.9": "pytest-cov 3.0",
+    "Python 3.10": "pytest-cov 3.0"
+  },
+  "cython": {
+    "Python 2.7": "cython 1.0",
+    "Python 3.6": "cython 3.0",
+    "Python 3.7": "cython 3.0",
+    "Python 3.8": "cython 3.0",
+    "Python 3.9": "cython 3.0",
+    "Python 3.10": "cython 3.0"
+  },
+  "dnspython": {
+    "Python 2.7": "dnspython 1.0",
+    "Python 3.6": "dnspython 3.0",
+    "Python 3.7": "dnspython 3.0",
+    "Python 3.8": "dnspython 3.0",
+    "Python 3.9": "dnspython 3.0",
+    "Python 3.10": "dnspython 3.0"
+  },
+  "pendulum": {
+    "Python 2.7": "pendulum 1.0",
+    "Python 3.6": "pendulum 3.0",
+    "Python 3.7": "pendulum 3.0",
+    "Python 3.8": "pendulum 3.0",
+    "Python 3.9": "pendulum 3.0",
+    "Python 3.10": "pendulum 3.0"
+  },
+  "distro": {
+    "Python 2.7": "distro 1.0",
+    "Python 3.6": "distro 3.0",
+    "Python 3.7": "distro 3.0",
+    "Python 3.8": "distro 3.0",
+    "Python 3.9": "distro 3.0",
+    "Python 3.10": "distro 3.0"
+  },
+  "scramp": {
+    "Python 2.7": "scramp 1.0",
+    "Python 3.6": "scramp 3.0",
+    "Python 3.7": "scramp 3.0",
+    "Python 3.8": "scramp 3.0",
+    "Python 3.9": "scramp 3.0",
+    "Python 3.10": "scramp 3.0"
+  },
+  "azure-identity": {
+    "Python 2.7": "azure-identity 1.0",
+    "Python 3.6": "azure-identity 3.0",
+    "Python 3.7": "azure-identity 3.0",
+    "Python 3.8": "azure-identity 3.0",
+    "Python 3.9": "azure-identity 3.0",
+    "Python 3.10": "azure-identity 3.0"
+  },
+  "cloudpickle": {
+    "Python 2.7": "cloudpickle 1.0",
+    "Python 3.6": "cloudpickle 3.0",
+    "Python 3.7": "cloudpickle 3.0",
+    "Python 3.8": "cloudpickle 3.0",
+    "Python 3.9": "cloudpickle 3.0",
+    "Python 3.10": "cloudpickle 3.0"
+  },
+  "uritemplate": {
+    "Python 2.7": "uritemplate 1.0",
+    "Python 3.6": "uritemplate 3.0",
+    "Python 3.7": "uritemplate 3.0",
+    "Python 3.8": "uritemplate 3.0",
+    "Python 3.9": "uritemplate 3.0",
+    "Python 3.10": "uritemplate 3.0"
+  },
+  "httplib2": {
+    "Python 2.7": "httplib2 1.0",
+    "Python 3.6": "httplib2 3.0",
+    "Python 3.7": "httplib2 3.0",
+    "Python 3.8": "httplib2 3.0",
+    "Python 3.9": "httplib2 3.0",
+    "Python 3.10": "httplib2 3.0"
+  },
+  "google-auth-httplib2": {
+    "Python 2.7": "google-auth-httplib2 1.0",
+    "Python 3.6": "google-auth-httplib2 3.0",
+    "Python 3.7": "google-auth-httplib2 3.0",
+    "Python 3.8": "google-auth-httplib2 3.0",
+    "Python 3.9": "google-auth-httplib2 3.0",
+    "Python 3.10": "google-auth-httplib2 3.0"
+  },
+  "pyrsistent": {
+    "Python 2.7": "pyrsistent 1.0",
+    "Python 3.6": "pyrsistent 3.0",
+    "Python 3.7": "pyrsistent 3.0",
+    "Python 3.8": "pyrsistent 3.0",
+    "Python 3.9": "pyrsistent 3.0",
+    "Python 3.10": "pyrsistent 3.0"
+  },
+  "defusedxml": {
+    "Python 2.7": "defusedxml 1.0",
+    "Python 3.6": "defusedxml 3.0",
+    "Python 3.7": "defusedxml 3.0",
+    "Python 3.8": "defusedxml 3.0",
+    "Python 3.9": "defusedxml 3.0",
+    "Python 3.10": "defusedxml 3.0"
+  },
+  "docker": {
+    "Python 2.7": "docker 1.0",
+    "Python 3.6": "docker 3.0",
+    "Python 3.7": "docker 3.0",
+    "Python 3.8": "docker 3.0",
+    "Python 3.9": "docker 3.0",
+    "Python 3.10": "docker 3.0"
+  },
+  "traitlets": {
+    "Python 2.7": "traitlets 1.0",
+    "Python 3.6": "traitlets 3.0",
+    "Python 3.7": "traitlets 3.0",
+    "Python 3.8": "traitlets 3.0",
+    "Python 3.9": "traitlets 3.0",
+    "Python 3.10": "traitlets 3.0"
+  },
+  "ruamel-yaml-clib": {
+    "Python 2.7": "ruamel-yaml-clib 1.0",
+    "Python 3.6": "ruamel-yaml-clib 3.0",
+    "Python 3.7": "ruamel-yaml-clib 3.0",
+    "Python 3.8": "ruamel-yaml-clib 3.0",
+    "Python 3.9": "ruamel-yaml-clib 3.0",
+    "Python 3.10": "ruamel-yaml-clib 3.0"
+  },
+  "ply": {
+    "Python 2.7": "ply 1.0",
+    "Python 3.6": "ply 3.0",
+    "Python 3.7": "ply 3.0",
+    "Python 3.8": "ply 3.0",
+    "Python 3.9": "ply 3.0",
+    "Python 3.10": "ply 3.0"
+  },
+  "mccabe": {
+    "Python 2.7": "mccabe 1.0",
+    "Python 3.6": "mccabe 3.0",
+    "Python 3.7": "mccabe 3.0",
+    "Python 3.8": "mccabe 3.0",
+    "Python 3.9": "mccabe 3.0",
+    "Python 3.10": "mccabe 3.0"
+  },
+  "pytzdata": {
+    "Python 2.7": "pytzdata 1.0",
+    "Python 3.6": "pytzdata 3.0",
+    "Python 3.7": "pytzdata 3.0",
+    "Python 3.8": "pytzdata 3.0",
+    "Python 3.9": "pytzdata 3.0",
+    "Python 3.10": "pytzdata 3.0"
+  },
+  "future": {
+    "Python 2.7": "future 1.0",
+    "Python 3.6": "future 3.0",
+    "Python 3.7": "future 3.0",
+    "Python 3.8": "future 3.0",
+    "Python 3.9": "future 3.0",
+    "Python 3.10": "future 3.0"
+  },
+  "termcolor": {
+    "Python 2.7": "termcolor 1.0",
+    "Python 3.6": "termcolor 3.0",
+    "Python 3.7": "termcolor 3.0",
+    "Python 3.8": "termcolor 3.0",
+    "Python 3.9": "termcolor 3.0",
+    "Python 3.10": "termcolor 3.0"
+  },
+  "requests-aws4auth": {
+    "Python 2.7": "requests-aws4auth 1.0",
+    "Python 3.6": "requests-aws4auth 3.0",
+    "Python 3.7": "requests-aws4auth 3.0",
+    "Python 3.8": "requests-aws4auth 3.0",
+    "Python 3.9": "requests-aws4auth 3.0",
+    "Python 3.10": "requests-aws4auth 3.0"
+  }
+}
