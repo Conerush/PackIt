@@ -1,12 +1,10 @@
-import time
-import os
 import json
 import google.generativeai as genai
 from types import SimpleNamespace
 
-
 # Initialize the Gemini model
-genai.configure(api_key='API_KEY')
+# TODO -> anonymize
+genai.configure(api_key='AIzaSyAqoFQLkZ3MUPNRZ_o5gTsOLkk6nGSJIlg')
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 # Define language-version mapping
@@ -36,29 +34,29 @@ def extract_tasks(specification):
     Tasks:
     """
     # TODO -> query the actual
-    # response = model.generate_content(extraction_prompt)
-    response = SimpleNamespace()
-    response.text = """Design and develop the architecture of the Integrated Development Environment (IDE).
-    Implement support for multiple programming languages (Python, Java, C++, JavaScript, etc.) in the IDE.
-    Build a user-friendly interface for code editing, debugging, and testing within the IDE.
-    Create a project management module with features for task creation, assignment, and tracking.
-    Develop a system for monitoring project deadlines and progress, and generating reports.
-    Integrate a comprehensive library of research materials, including academic papers and technical articles.
-    Implement tools for efficient note-taking, citation management, and collaborative document editing.
-    Develop data analysis and visualization tools capable of handling complex datasets.
-    Enable users to import, clean, manipulate, and graphically represent data.
-    Build features for real-time code sharing, peer review, and remote pair programming.
-    Create a platform for users to share their work, projects, and findings with the community.
-    Develop automated testing frameworks for different programming languages.
-    Implement continuous integration and deployment pipelines for seamless code validation and deployment.
-    Curate a library of educational resources, including tutorials, coding challenges, and interactive learning modules.
-    Design learning paths and personalize content recommendations based on user skill level and interests.
-    Develop a user authentication and authorization system to manage user accounts and permissions.
-    Ensure the application is scalable, secure, and performs well under high user loads.
-    Implement logging and monitoring systems to track application performance and identify potential issues.
-    Conduct thorough testing to ensure all features function as expected and meet quality standards.
-    Gather feedback from users and stakeholders to continuously improve the application and its features.
-    Stay updated with the latest trends and technologies in software development and incorporate them as needed."""
+    response = model.generate_content(extraction_prompt)
+    # response = SimpleNamespace()
+    # response.text = """Design and develop the architecture of the Integrated Development Environment (IDE).
+    # Implement support for multiple programming languages (Python, Java, C++, JavaScript, etc.) in the IDE.
+    # Build a user-friendly interface for code editing, debugging, and testing within the IDE.
+    # Create a project management module with features for task creation, assignment, and tracking.
+    # Develop a system for monitoring project deadlines and progress, and generating reports.
+    # Integrate a comprehensive library of research materials, including academic papers and technical articles.
+    # Implement tools for efficient note-taking, citation management, and collaborative document editing.
+    # Develop data analysis and visualization tools capable of handling complex datasets.
+    # Enable users to import, clean, manipulate, and graphically represent data.
+    # Build features for real-time code sharing, peer review, and remote pair programming.
+    # Create a platform for users to share their work, projects, and findings with the community.
+    # Develop automated testing frameworks for different programming languages.
+    # Implement continuous integration and deployment pipelines for seamless code validation and deployment.
+    # Curate a library of educational resources, including tutorials, coding challenges, and interactive learning modules.
+    # Design learning paths and personalize content recommendations based on user skill level and interests.
+    # Develop a user authentication and authorization system to manage user accounts and permissions.
+    # Ensure the application is scalable, secure, and performs well under high user loads.
+    # Implement logging and monitoring systems to track application performance and identify potential issues.
+    # Conduct thorough testing to ensure all features function as expected and meet quality standards.
+    # Gather feedback from users and stakeholders to continuously improve the application and its features.
+    # Stay updated with the latest trends and technologies in software development and incorporate them as needed."""
     print(response.text)
     return [line.strip() for line in response.text.split('\n') if line.strip()]
 
@@ -79,12 +77,23 @@ def get_libraries(specification, language, version):
 
     return markdown_output
 
-def spec_to_libraries(spec, language, version):
-    task_extraction_prompt = f"Extract the main tasks and steps involved in the following project specification: '{spec}'"
+def initialize_chat(specification, language, version):
+    initial_prompt = f"""You are an AI assistant helping with software development. 
+    The user is working on a project with the following specification: '{specification}'. 
+    They are using {language} version {version}. 
+    The following libraries have been recommended:
+    
+    {get_libraries(specification, language, version)}
+    
+    Provide a helpful response to get started."""
+    
+    chat = model.start_chat(history=[])
+    response = chat.send_message(initial_prompt)
+    return chat, response.text
 
-def response_generator(messages):
+def followup_generator(chat, user_message):
     try:
-        response = model.generate_content(messages, stream=True)
+        response = chat.send_message(user_message, stream=True)
         for chunk in response:
             if chunk.text:
                 yield chunk.text
