@@ -1,38 +1,13 @@
 import time
-import base64
 import os
-from langchain.chat_models import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.chains import RetrievalQA
-from langchain.text_splitter import CharacterTextSplitter
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from langchain.llms import HuggingFacePipeline
-from langchain.embeddings import HuggingFaceEmbeddings
+import json
+import google.generativeai as genai
+from types import SimpleNamespace
 
 
-# Setup LangChain ChatOpenAI
-# chat = ChatOpenAI(temperature=0, streaming=True)
-# embeddings = OpenAIEmbeddings()
-
-# Load a free model from Hugging Face (e.g., GPT-2)
-model_name = "gpt2"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
-
-# Create a text generation pipeline
-text_generation_pipeline = pipeline(
-    "text-generation",
-    model=model,
-    tokenizer=tokenizer,
-    max_length=100,
-    temperature=0,
-)
-
-# Create a LangChain HuggingFacePipeline object
-chat = HuggingFacePipeline(pipeline=text_generation_pipeline)
-
+# Initialize the Gemini model
+genai.configure(api_key='API_KEY')
+model = genai.GenerativeModel('gemini-1.5-pro')
 
 # Define language-version mapping
 language_versions = {
@@ -41,52 +16,77 @@ language_versions = {
 }
 
 def extract_tasks(specification):
-    if not specification: return None # todo -> handle!!
-    extraction_prompt = f"""You are a senior software engineer buildling a project with the following specification:
+    if not specification:
+        return None
+    extraction_prompt = f"""You are a senior software engineer building a project with the following specification:
     <projectSpecification>
-
     {specification}
-
     </projectSpecification>
-
-    Seperate each of your tasks ONLY with newlines - do NOT use bullet points or a numbred list
+    Separate each of your tasks ONLY with newlines - do NOT use bullet points or a numbered list. 
+    Here is an example of how to format your answer:
+    <example>
+    Aggregate feedback from surveys.
+    Aggregate feedback from social media platforms.
+    Perform natural language processing to categorize feedback.
+    Detect sentiment in feedback.
+    Generate visual reports highlighting common issues.
+    Generate visual reports highlighting customer sentiment trends.
+    Provide recommendations for product improvements based on analysis.
+    </example>
+    Tasks:
     """
-    response = chat([HumanMessage(content=extraction_prompt)])
-    return [line.strip() for line in response.content.split('\n') if line.strip()]
+    # TODO -> query the actual
+    # response = model.generate_content(extraction_prompt)
+    response = SimpleNamespace()
+    response.text = """Design and develop the architecture of the Integrated Development Environment (IDE).
+    Implement support for multiple programming languages (Python, Java, C++, JavaScript, etc.) in the IDE.
+    Build a user-friendly interface for code editing, debugging, and testing within the IDE.
+    Create a project management module with features for task creation, assignment, and tracking.
+    Develop a system for monitoring project deadlines and progress, and generating reports.
+    Integrate a comprehensive library of research materials, including academic papers and technical articles.
+    Implement tools for efficient note-taking, citation management, and collaborative document editing.
+    Develop data analysis and visualization tools capable of handling complex datasets.
+    Enable users to import, clean, manipulate, and graphically represent data.
+    Build features for real-time code sharing, peer review, and remote pair programming.
+    Create a platform for users to share their work, projects, and findings with the community.
+    Develop automated testing frameworks for different programming languages.
+    Implement continuous integration and deployment pipelines for seamless code validation and deployment.
+    Curate a library of educational resources, including tutorials, coding challenges, and interactive learning modules.
+    Design learning paths and personalize content recommendations based on user skill level and interests.
+    Develop a user authentication and authorization system to manage user accounts and permissions.
+    Ensure the application is scalable, secure, and performs well under high user loads.
+    Implement logging and monitoring systems to track application performance and identify potential issues.
+    Conduct thorough testing to ensure all features function as expected and meet quality standards.
+    Gather feedback from users and stakeholders to continuously improve the application and its features.
+    Stay updated with the latest trends and technologies in software development and incorporate them as needed."""
+    print(response.text)
+    return [line.strip() for line in response.text.split('\n') if line.strip()]
 
-def call_jtao_api(specification, language, version):
+def get_libraries(specification, language, version):
     tasks = extract_tasks(specification)
-    # use ex_jtao_out.json as a placeholder for the API response
+    # TODO -> placeholder
     with open('ex_jtao_out.json') as f:
         api_response = json.load(f)
-    return api_response
+    markdown_output = ""
 
-# function for initial product spec api call
+    for item in api_response:
+        markdown_output += f"# {item['name']}\n\n"
+        markdown_output += f"**Description:** {item['description']}\n\n"
+        markdown_output += "**Key Features:**\n"
+        for feature in item['key_features'].split(", "):
+            markdown_output += f"- {feature}\n"
+        markdown_output += "\n"
+
+    return markdown_output
+
 def spec_to_libraries(spec, language, version):
-    task_extraction_prompt = f"Extract the main tasks and steps involved in the following project specification: '{st.session_state.product_spec}'"
-
+    task_extraction_prompt = f"Extract the main tasks and steps involved in the following project specification: '{spec}'"
 
 def response_generator(messages):
     try:
-        stream = chat.stream(messages)
-        for chunk in stream:
-            if chunk.content:
-                yield chunk.content
+        response = model.generate_content(messages, stream=True)
+        for chunk in response:
+            if chunk.text:
+                yield chunk.text
     except Exception as e:
         yield f"An error occurred: {str(e)}"
-
-def extract_tasks(specification):
-    prompt = f"Extract the main tasks and steps involved in the following project specification: {specification}"
-    response = chat([HumanMessage(content=prompt)])
-    return response.content
-
-def create_embeddings_and_store(tasks):
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-    texts = text_splitter.split_text(tasks)
-    vectorstore = Chroma.from_texts(texts, embeddings)
-    return vectorstore
-
-def query_vectordb(vectorstore, query):
-    retriever = vectorstore.as_retriever()
-    qa_chain = RetrievalQA.from_chain_type(llm=chat, chain_type="stuff", retriever=retriever)
-    return qa_chain.run(query)
