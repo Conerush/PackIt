@@ -1,0 +1,8 @@
+pandas
+numpy
+langchain_community
+langchain_openai
+chromadb
+openai
+tiktoken
+sentence_transformers
