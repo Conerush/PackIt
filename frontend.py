@@ -2,14 +2,8 @@ import streamlit as st
 import time
 import base64
 import os
-from langchain.chat_models import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.chains import RetrievalQA
-from langchain.text_splitter import CharacterTextSplitter
+from prompt_processing import followup_generator, extract_tasks, get_libraries
 
-from prompt_processing import response_generator, extract_tasks, get_libraries
 language_versions = {
     "Python": ["3.12", "3.11", "3.10", "3.9", "3.8", "3.7", "2.7"],
     "JavaScript": ["ES2023", "ES2022", "ES2021", "ES2020", "ES2019", "ES2018", "ES6"],
@@ -113,12 +107,12 @@ if st.session_state.initial_input_submitted:
         st.session_state.messages.append({"role": "assistant", "content": response})
 
     # Accept user input
-    if prompt := st.chat_input("What else would you like to know?"):
+    if prompt := st.chat_input("Ask a follow-up question about the library data or provide additional context to the assistant."):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(f'<div class="stChatMessage">{prompt}</div>', unsafe_allow_html=True)
         
         with st.chat_message("assistant"):
-            response = st.write(response_generator(st.session_state.messages))
+            response = st.write_stream(response_generator(st.session_state.messages))
         
         st.session_state.messages.append({"role": "assistant", "content": response})
