@@ -187,7 +187,7 @@ if 'messages' not in st.session_state:
 
 # In the initial input section
 if not st.session_state.initial_input_submitted:
-    with st.expander("Welcome! Please provide some information to get started", expanded=True):
+    with st.expander("Please provide some information on your project to get started", expanded=True):
         st.write("Welcome to PackIt!")
         
         st.session_state.language = st.selectbox(
@@ -200,7 +200,7 @@ if not st.session_state.initial_input_submitted:
             language_versions[st.session_state.language]
         )
         
-        product_spec = st.text_area("Enter Product Specification", key="product_spec_input", placeholder="Hit ⌘+Enter to submit")
+        product_spec = st.text_area("Enter Project Specification", key="product_spec_input", placeholder="Hit ⌘+Enter to submit")
         
         if product_spec and product_spec != st.session_state.get('previous_product_spec', ''):
             st.session_state.initial_input_submitted = True
@@ -242,3 +242,25 @@ if st.session_state.initial_input_submitted:
                 response = st.write_stream(response_generator(st.session_state.messages))
         
         st.session_state.messages.append({"role": "assistant", "content": response})
+
+
+#TO DO (placeholder)
+def generate_requirements_txt(specification, language, version):
+    # Generate the content of requirements.txt based on the session data
+    return f"# Generated for {language} {version}\n# Spec: {specification}\nnumpy==1.18.5\npandas==1.2.0"
+
+# Place this in the appropriate part of your Streamlit app where the button should appear
+if st.button("Generate and Download requirements.txt"):
+    specification = st.session_state.product_spec  # Assuming you store product spec in session_state
+    language = st.session_state.language
+    version = st.session_state.version
+
+    requirements_content = generate_requirements_txt(specification, language, version)
+    
+    # Use Streamlit's built-in function to provide a download button
+    st.download_button(
+        label="Download requirements.txt",
+        data=requirements_content,
+        file_name="requirements.txt",
+        mime="text/plain"
+    )

@@ -81,6 +81,7 @@ def get_libraries(specification, language, version):
 
     return markdown_output
 
+#gives chatbot context/ improves output 
 def initialize_chat(specification, language, version):
     initial_prompt = f"""You are an AI assistant helping with software development. 
     The user is working on a project with the following specification: '{specification}'. 
