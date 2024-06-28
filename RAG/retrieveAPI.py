@@ -1,17 +1,23 @@
-from fastapi import FastAPI
+from flask import Flask,request
 from rag import *
+import json
+import requests
 
-import uvicorn
 
-app = FastAPI(title="Exposing")
+app = Flask(__name__)
+@app.route('/' , methods = ['GET' , 'POST'])
+def index():
+    return "Hello World!!!!"
 
-@app.get("/retrieve")
-async def root(query=None, packages=None):
-    retrieve(query, packages)
+
+
+@app.route('/api/get-packages' , methods = ['GET' , 'POST'])
+def get_packages():
+    if(request.method == 'POST'):
+        request_data = request.get_json()
+        return retrieve(request_data["description"], 10)
+
 
 
 if __name__ == "__main__":
-    uvicorn.run(app="fastapi:app", host="127.0.0.1", port=8080, reload=True)
-    
-    
-    
+    app.run(debug=True)
