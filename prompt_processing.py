@@ -1,6 +1,7 @@
 import json
 import google.generativeai as genai
 from types import SimpleNamespace
+#prompt_processing
 
 # Initialize the Gemini model
 # TODO -> anonymize
@@ -13,7 +14,8 @@ language_versions = {
     "JavaScript": ["ES2023", "ES2022", "ES2021", "ES2020", "ES2019", "ES2018", "ES6"],
 }
 
-def extract_tasks(specification):
+#set an extraction prompt to set context for AI chatbot and guide response 
+def extract_tasks(specification): #the specificaiton is the user input
     if not specification:
         return None
     extraction_prompt = f"""You are a senior software engineer building a project with the following specification:
@@ -60,8 +62,10 @@ def extract_tasks(specification):
     print(response.text)
     return [line.strip() for line in response.text.split('\n') if line.strip()]
 
+
+#
 def get_libraries(specification, language, version):
-    tasks = extract_tasks(specification)
+    tasks = extract_tasks(specification) #gives a list of tasks from the user project specification
     # TODO -> placeholder
     with open('ex_jtao_out.json') as f:
         api_response = json.load(f)
@@ -91,11 +95,14 @@ def initialize_chat(specification, language, version):
     response = chat.send_message(initial_prompt)
     return chat, response.text
 
-def followup_generator(chat, user_message):
+def response_generator(messages):
     try:
-        response = chat.send_message(user_message, stream=True)
+        response = model.generate_content(messages, stream=True)
         for chunk in response:
             if chunk.text:
-                yield chunk.text
+                words = chunk.text.split()  # Split chunk text into words
+                for word in words:
+                    yield word  # Yield each word individually
     except Exception as e:
         yield f"An error occurred: {str(e)}"
+
