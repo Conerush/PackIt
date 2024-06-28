@@ -1,0 +1,7 @@
+[
+    {
+     "description": "NumPy is a fundamental package for scientific computing in Python. It provides support for arrays, matrices, and many mathematical functions.",
+     "key_features": "Powerful N-dimensional array object, Sophisticated functions for numerical computation, Tools for integrating C/C++ and Fortran code, Linear algebra, random number generation, and more",
+     "name": "NumPy"
+    }
+]
