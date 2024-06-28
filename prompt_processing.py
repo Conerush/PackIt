@@ -63,19 +63,18 @@ def extract_tasks(specification): #the specificaiton is the user input
     return [line.strip() for line in response.text.split('\n') if line.strip()]
 
 
-#
 def get_libraries(specification, language, version):
     tasks = extract_tasks(specification) #gives a list of tasks from the user project specification
     # TODO -> placeholder
-    with open('ex_jtao_out.json') as f:
+    with open('ex_jtao_out.json', 'r') as f:
         api_response = json.load(f)
     markdown_output = ""
-
+    print(api_response)
     for item in api_response:
         markdown_output += f"# {item['name']}\n\n"
         markdown_output += f"**Description:** {item['description']}\n\n"
         markdown_output += "**Key Features:**\n"
-        for feature in item['key_features'].split(", "):
+        for feature in item['key_features']:
             markdown_output += f"- {feature}\n"
         markdown_output += "\n"
 
